@@ -2,47 +2,70 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import {
   buildSeoMetaTags,
+  getSeoMetadataForPath,
   type HeadDocument,
+  isPrivacyPolicyPath,
+  PRIVACY_SEO_DESCRIPTION,
+  PRIVACY_SEO_KEYWORDS,
+  PRIVACY_SEO_TITLE,
   SEO_DESCRIPTION,
   SEO_KEYWORDS,
   SEO_TITLE,
   syncDocumentHead,
 } from './seoMeta';
 
-test('SEO title and description follow search snippet length guidelines and contain no em-dashes', () => {
-  assert.ok(
-    SEO_TITLE.length >= 30 && SEO_TITLE.length <= 60,
-    `Expected title length 30-60, got ${SEO_TITLE.length}`,
-  );
-  assert.ok(
-    SEO_DESCRIPTION.length >= 120 && SEO_DESCRIPTION.length <= 160,
-    `Expected description length 120-160, got ${SEO_DESCRIPTION.length}`,
-  );
-  assert.equal(SEO_TITLE.includes('—'), false);
-  assert.equal(SEO_DESCRIPTION.includes('—'), false);
+test('SEO titles and descriptions follow search snippet length guidelines and contain no em-dashes', () => {
+  for (const title of [SEO_TITLE, PRIVACY_SEO_TITLE]) {
+    assert.ok(
+      title.length >= 30 && title.length <= 60,
+      `Expected title length 30-60, got ${title.length} for "${title}"`,
+    );
+    assert.equal(title.includes('—'), false);
+  }
+
+  for (const desc of [SEO_DESCRIPTION, PRIVACY_SEO_DESCRIPTION]) {
+    assert.ok(
+      desc.length >= 120 && desc.length <= 160,
+      `Expected description length 120-160, got ${desc.length} for "${desc}"`,
+    );
+    assert.equal(desc.includes('—'), false);
+  }
+
   assert.equal(SEO_KEYWORDS.includes('—'), false);
+  assert.equal(PRIVACY_SEO_KEYWORDS.includes('—'), false);
 });
 
-test('SEO meta tags explicitly target requested search keywords', () => {
-  const tags = buildSeoMetaTags('https://sickday6.thekhubaib.me', '/');
-  const keywordsTag = tags.find((t) => t.attr === 'name' && t.key === 'keywords');
-  const descriptionTag = tags.find(
+test('SEO meta tags explicitly target requested search keywords on Home and Privacy Policy routes', () => {
+  const homeTags = buildSeoMetaTags('https://sickday6.thekhubaib.me', '/');
+  const homeKeywords = homeTags.find(
+    (t) => t.attr === 'name' && t.key === 'keywords',
+  );
+  const homeDesc = homeTags.find(
     (t) => t.attr === 'name' && t.key === 'description',
   );
 
-  assert.ok(keywordsTag);
-  assert.ok(descriptionTag);
+  assert.ok(homeKeywords);
+  assert.ok(homeDesc);
+  assert.match(homeKeywords.content, /Hinglish excuse generator/i);
+  assert.match(homeKeywords.content, /Office leave excuse/i);
+  assert.match(homeKeywords.content, /GTA 6 launch day funny excuse/i);
+  assert.match(homeDesc.content, /Hinglish excuse generator/i);
+  assert.match(homeDesc.content, /office leave excuse/i);
+  assert.match(homeDesc.content, /GTA 6 launch day funny excuse/i);
 
-  assert.match(keywordsTag.content, /Hinglish excuse generator/i);
-  assert.match(keywordsTag.content, /Office leave excuse/i);
-  assert.match(keywordsTag.content, /GTA 6 launch day funny excuse/i);
+  assert.equal(isPrivacyPolicyPath('/privacy-policy'), true);
+  assert.equal(isPrivacyPolicyPath('/privacy-policy/'), true);
+  assert.equal(isPrivacyPolicyPath('/'), false);
 
-  assert.match(descriptionTag.content, /Hinglish excuse generator/i);
-  assert.match(descriptionTag.content, /office leave excuse/i);
-  assert.match(descriptionTag.content, /GTA 6 launch day funny excuse/i);
+  const privacyMeta = getSeoMetadataForPath('/privacy-policy');
+  assert.equal(privacyMeta.title, PRIVACY_SEO_TITLE);
+  assert.match(privacyMeta.keywords, /Sick Day VI privacy policy/i);
+  assert.match(privacyMeta.keywords, /Hinglish excuse generator/i);
+  assert.match(privacyMeta.keywords, /Office leave excuse/i);
+  assert.match(privacyMeta.keywords, /GTA 6 launch day funny excuse/i);
 });
 
-test('syncDocumentHead upserts existing tags without creating duplicates', () => {
+test('syncDocumentHead updates cleanly across routes without creating duplicate meta tags', () => {
   interface MockEl {
     tagName: string;
     attrs: Record<string, string>;
@@ -58,7 +81,6 @@ test('syncDocumentHead upserts existing tags without creating duplicates', () =>
     },
   });
 
-  // Pre-seed two tags like index.html has
   const existingDesc = createEl('meta');
   existingDesc.setAttribute('name', 'description');
   existingDesc.setAttribute('content', 'old');
@@ -103,24 +125,20 @@ test('syncDocumentHead upserts existing tags without creating duplicates', () =>
     '/',
   );
   const firstCount = headChildren.length;
+  assert.equal(mockDoc.title, SEO_TITLE);
+  assert.equal(existingCanonical.attrs.href, 'https://sickday6.thekhubaib.me/');
 
-  // Calling a second time must be idempotent with zero duplicate nodes
+  // Navigating to /privacy-policy must update in-place with zero duplicate tags
   syncDocumentHead(
     mockDoc as unknown as HeadDocument,
     'https://sickday6.thekhubaib.me',
-    '/',
+    '/privacy-policy',
   );
-
   assert.equal(headChildren.length, firstCount);
-  assert.equal(mockDoc.title, SEO_TITLE);
-  assert.equal(existingDesc.attrs.content, SEO_DESCRIPTION);
-  assert.equal(existingCanonical.attrs.href, 'https://sickday6.thekhubaib.me/');
-
-  const keywordsEl = headChildren.find(
-    (el) => el.tagName === 'meta' && el.attrs.name === 'keywords',
+  assert.equal(mockDoc.title, PRIVACY_SEO_TITLE);
+  assert.equal(existingDesc.attrs.content, PRIVACY_SEO_DESCRIPTION);
+  assert.equal(
+    existingCanonical.attrs.href,
+    'https://sickday6.thekhubaib.me/privacy-policy',
   );
-  assert.ok(keywordsEl);
-  assert.match(keywordsEl.attrs.content, /Hinglish excuse generator/);
-  assert.match(keywordsEl.attrs.content, /Office leave excuse/);
-  assert.match(keywordsEl.attrs.content, /GTA 6 launch day funny excuse/);
 });

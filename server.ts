@@ -48,6 +48,12 @@ async function startServer() {
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>${origin}/privacy-policy</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
 `;
     res.type('application/xml; charset=utf-8').send(xml);

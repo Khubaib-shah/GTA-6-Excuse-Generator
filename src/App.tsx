@@ -3,6 +3,7 @@ import { FaqSection } from './components/FaqSection';
 import { Footer } from './components/Footer';
 import { GeneratorStudio } from './components/GeneratorStudio';
 import { Navbar } from './components/Navbar';
+import { PrivacyPolicyPage } from './components/PrivacyPolicyPage';
 import { ScrollReveal } from './components/ScrollReveal';
 import { ShareModal } from './components/ShareModal';
 import { ViceHero } from './components/ViceHero';
@@ -17,13 +18,16 @@ import {
   generateTemplateExcuse,
   rehydrateTemplateRecipient,
 } from './utils/excuseEngine';
+import { isPrivacyPolicyPath, syncDocumentHead } from './utils/seoMeta';
 import {
   renderShareCardPng,
   type RenderedShareCard,
 } from './utils/shareCardRenderer';
-import { syncDocumentHead } from './utils/seoMeta';
 
 export default function App() {
+  const [pathname, setPathname] = useState<string>(() =>
+    typeof window !== 'undefined' ? window.location.pathname : '/',
+  );
   const [persona, setPersona] = useState<Persona>('corporate');
   const [channel, setChannel] = useState<Channel>('whatsapp');
   const [expression, setExpression] = useState<Expression>('casual');
@@ -41,18 +45,59 @@ export default function App() {
   const abortControllerRef = useRef<AbortController | null>(null);
   const recentIdsRef = useRef<string[]>([]);
 
+  const isPrivacyPage = isPrivacyPolicyPath(pathname);
+
   useEffect(() => {
-    if (typeof window !== 'undefined' && typeof document !== 'undefined') {
-      syncDocumentHead(
-        document,
-        window.location.origin,
-        window.location.pathname,
-      );
+    if (typeof window === 'undefined' || typeof document === 'undefined') {
+      return;
     }
 
+    syncDocumentHead(document, window.location.origin, pathname);
+  }, [pathname]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const onPopState = () => {
+      setPathname(window.location.pathname);
+    };
+    window.addEventListener('popstate', onPopState);
     return () => {
+      window.removeEventListener('popstate', onPopState);
       abortControllerRef.current?.abort();
     };
+  }, []);
+
+  const navigateToHome = useCallback(
+    (sectionId?: string) => {
+      if (typeof window === 'undefined') return;
+
+      const wasPrivacy = isPrivacyPolicyPath(window.location.pathname);
+      if (wasPrivacy) {
+        const nextUrl = sectionId ? `/#${sectionId}` : '/';
+        window.history.pushState({}, '', nextUrl);
+        setPathname('/');
+      }
+
+      if (sectionId) {
+        const scrollDelay = wasPrivacy ? 80 : 0;
+        window.setTimeout(() => {
+          const el = document.getElementById(sectionId);
+          el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, scrollDelay);
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    },
+    [],
+  );
+
+  const navigateToPrivacyPolicy = useCallback(() => {
+    if (typeof window === 'undefined') return;
+    if (!isPrivacyPolicyPath(window.location.pathname)) {
+      window.history.pushState({}, '', '/privacy-policy');
+      setPathname('/privacy-policy');
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
 
   const cancelInFlightRequest = useCallback(() => {
@@ -63,14 +108,12 @@ export default function App() {
   }, []);
 
   const handleJumpToGenerator = useCallback(() => {
-    const el = document.getElementById('generator');
-    el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, []);
+    navigateToHome('generator');
+  }, [navigateToHome]);
 
   const handleJumpToModes = useCallback(() => {
-    const el = document.getElementById('modes');
-    el?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, []);
+    navigateToHome('modes');
+  }, [navigateToHome]);
 
   const handleSelectMarqueeContext = useCallback((nextContext: string) => {
     setContext(nextContext);
@@ -174,49 +217,62 @@ export default function App() {
         className="leonida-film-grain pointer-events-none fixed inset-0 z-50"
       />
 
-      <Navbar onStartClick={handleJumpToGenerator} />
+      <Navbar
+        onStartClick={handleJumpToGenerator}
+        onNavigateSection={navigateToHome}
+      />
 
       <main>
-        <ViceHero
-          onJumpToGenerator={handleJumpToGenerator}
-          onJumpToModes={handleJumpToModes}
-          onSelectContext={handleSelectMarqueeContext}
-        />
+        {isPrivacyPage ? (
+          <PrivacyPolicyPage onBackHome={navigateToHome} />
+        ) : (
+          <>
+            <ViceHero
+              onJumpToGenerator={handleJumpToGenerator}
+              onJumpToModes={handleJumpToModes}
+              onSelectContext={handleSelectMarqueeContext}
+            />
 
-        {/* AdSense Header Placeholder Slot */}
-        <ScrollReveal>
-          <div className="mx-auto w-full max-w-6xl px-4 py-7 sm:px-6">
-            <div
-              id="ad-slot-header"
-              aria-label="Header advertisement slot"
-              className="flex min-h-[68px] w-full items-center justify-center rounded-xl border border-dashed border-white/14 bg-[#1A1528]/60 px-4 text-center text-xs text-white/50"
-            >
-              Advertisement space
-            </div>
-          </div>
-        </ScrollReveal>
+            {/* AdSense Header Placeholder Slot */}
+            <ScrollReveal>
+              <div className="mx-auto w-full max-w-6xl px-4 py-7 sm:px-6">
+                <div
+                  id="ad-slot-header"
+                  aria-label="Header advertisement slot"
+                  className="flex min-h-[68px] w-full items-center justify-center rounded-xl border border-dashed border-white/14 bg-[#1A1528]/60 px-4 text-center text-xs text-white/50"
+                >
+                  Advertisement space
+                </div>
+              </div>
+            </ScrollReveal>
 
-        <GeneratorStudio
-          persona={persona}
-          channel={channel}
-          expression={expression}
-          recipientName={recipientName}
-          context={context}
-          excuse={excuse}
-          isGenerating={isGenerating}
-          isExporting={isExporting}
-          onPersonaChange={handlePersonaChange}
-          onChannelChange={handleChannelChange}
-          onExpressionChange={handleExpressionChange}
-          onRecipientChange={handleRecipientChange}
-          onContextChange={setContext}
-          onGenerate={handleGenerate}
-          onShare={handleShare}
-        />
-        <FaqSection />
+            <GeneratorStudio
+              persona={persona}
+              channel={channel}
+              expression={expression}
+              recipientName={recipientName}
+              context={context}
+              excuse={excuse}
+              isGenerating={isGenerating}
+              isExporting={isExporting}
+              onPersonaChange={handlePersonaChange}
+              onChannelChange={handleChannelChange}
+              onExpressionChange={handleExpressionChange}
+              onRecipientChange={handleRecipientChange}
+              onContextChange={setContext}
+              onGenerate={handleGenerate}
+              onShare={handleShare}
+            />
+            <FaqSection />
+          </>
+        )}
       </main>
 
-      <Footer />
+      <Footer
+        isPrivacyPage={isPrivacyPage}
+        onOpenPrivacyPolicy={navigateToPrivacyPolicy}
+        onGoHome={() => navigateToHome()}
+      />
 
       <ShareModal
         isOpen={isShareOpen}

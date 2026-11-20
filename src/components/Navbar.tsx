@@ -2,9 +2,10 @@ import { useEffect, useState } from 'react';
 
 interface NavbarProps {
   onStartClick: () => void;
+  onNavigateSection: (sectionId?: string) => void;
 }
 
-export function Navbar({ onStartClick }: NavbarProps) {
+export function Navbar({ onStartClick, onNavigateSection }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -28,7 +29,11 @@ export function Navbar({ onStartClick }: NavbarProps) {
       <div className="mx-auto flex h-full w-full max-w-6xl items-center justify-between gap-3 px-4 sm:gap-8 sm:px-6">
         {/* Zone 1: Flipped mascot logo + editorial brand wordmark */}
         <a
-          href="#top"
+          href="/"
+          onClick={(e) => {
+            e.preventDefault();
+            onNavigateSection();
+          }}
           style={{ fontFamily: 'var(--font-display)' }}
           className="group inline-flex items-center gap-2.5 text-lg font-extrabold tracking-[0.03em] text-white whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FFB0C4] sm:gap-3 sm:text-xl"
         >
@@ -53,19 +58,31 @@ export function Navbar({ onStartClick }: NavbarProps) {
           className="hidden items-center gap-8 text-xs font-semibold uppercase tracking-[0.14em] text-white/85 md:flex"
         >
           <a
-            href="#generator"
+            href="/#generator"
+            onClick={(e) => {
+              e.preventDefault();
+              onNavigateSection('generator');
+            }}
             className="whitespace-nowrap shrink-0 transition-colors duration-150 hover:text-[#FFB0C4] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#FFB0C4]"
           >
             Generator
           </a>
           <a
-            href="#modes"
+            href="/#modes"
+            onClick={(e) => {
+              e.preventDefault();
+              onNavigateSection('modes');
+            }}
             className="whitespace-nowrap shrink-0 transition-colors duration-150 hover:text-[#FFB0C4] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#FFB0C4]"
           >
             Modes
           </a>
           <a
-            href="#share-card"
+            href="/#share-card"
+            onClick={(e) => {
+              e.preventDefault();
+              onNavigateSection('share-card');
+            }}
             className="whitespace-nowrap shrink-0 transition-colors duration-150 hover:text-[#FFB0C4] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#FFB0C4]"
           >
             Postcard
