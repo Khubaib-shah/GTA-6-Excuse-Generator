@@ -3,19 +3,6 @@
 @theme {
   --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
-
-  --color-leonida-bg: #110E1A;
-  --color-leonida-surface: #1A1528;
-  --color-leonida-frame: #0A0712;
-  --color-sunset-plum: #5D3566;
-  --color-sunset-rose: #A45985;
-  --color-sunset-pink: #E8899F;
-  --color-sunset-peach: #F5B789;
-  --color-blush: #FFB0C4;
-  --color-blush-hover: #FFC5D4;
-  --color-lavender: #D8B4E2;
-  --color-sunset-gold: #F5C08D;
-  --color-ink: #F7F4FA;
 }
 
 @layer base {

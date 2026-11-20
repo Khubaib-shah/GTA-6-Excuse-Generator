@@ -186,7 +186,7 @@ sequenceDiagram
 
 | Method & Route | Content-Type | Responsibility |
 | :--- | :--- | :--- |
-| `POST /api/excuse` | `application/json` | Validates persona/channel/expression, calls Gemini JSON API with 8.5s timeout, falls back silently to 144-template pool |
+| `POST /api/excuse` | `application/json` | Validates persona/channel/expression, bypasses Gemini when context is empty, invokes Gemini with 8.5s timeout on custom context, and falls back silently to 288-template JSON pool |
 | `GET /robots.txt` | `text/plain` | Dynamically outputs crawler rules and absolute `Sitemap:` URL using `APP_URL` or request host |
 | `GET /sitemap.xml` | `application/xml` | Dynamically serves fresh XML sitemap with `<loc>` and `<lastmod>` for Google Search Console |
 
@@ -197,7 +197,9 @@ sequenceDiagram
 ```text
 ├── docs/images/                      # README desktop & mobile showcase screenshots
 ├── public/
-│   ├── favicon.svg                   # Custom Leonida Sunset VI vector favicon
+│   ├── apple-touch-icon.png          # 180x180 horizontally flipped iOS home screen icon
+│   ├── assets/aistudio/              # Custom illustrated gamer mascot logo asset
+│   ├── favicon.png                   # 256x256 horizontally flipped rounded PNG favicon
 │   ├── og-image.jpg                  # 1280x720 OpenGraph & Twitter Card social preview image
 │   ├── robots.txt                    # Static crawler directive fallback
 │   └── sitemap.xml                   # Static XML sitemap fallback
@@ -207,20 +209,22 @@ sequenceDiagram
 │   │   ├── FaqSection.tsx            # Collapsible SEO FAQ section synced with FAQPage JSON-LD
 │   │   ├── Footer.tsx                # Ad slot, Hinglish disclaimer, and creator credit
 │   │   ├── GeneratorStudio.tsx       # 2-column studio, live channel preview, 3-panel Modes gallery
-│   │   ├── Navbar.tsx                # Transparent-to-frosted floating navigation bar
+│   │   ├── Navbar.tsx                # Floating header with flipped mascot badge + navigation
 │   │   ├── ScrollReveal.tsx          # Consistent IntersectionObserver entrance wrapper
 │   │   ├── ShareModal.tsx            # PNG postcard preview modal + Download & Web Share API
 │   │   ├── ViceEmblem.tsx            # Original geometric palm-filled VI SVG monogram
 │   │   └── ViceHero.tsx              # Full-height parallax hero + L-to-R funny context marquee
 │   ├── data/
-│   │   └── templates.ts              # 144 Hinglish templates (Casual, Professional, GTA 6 Meme)
+│   │   ├── excuses.json              # 288 curated Hinglish templates (Casual, Professional, GTA 6 Meme)
+│   │   └── templates.ts              # Typed JSON loader for excuses.json
 │   ├── services/
-│   │   └── excuseClient.ts           # Typed frontend fetch client with offline fallback
+│   │   └── excuseClient.ts           # JSON-first client with context-triggered AI fetch & fallback
 │   ├── types/
 │   │   └── excuse.ts                 # Shared TypeScript unions, options, and marquee quotes
 │   └── utils/
 │       ├── excuseEngine.ts           # Pure template engine + Telegram parser + unit tests
 │       ├── llmParser.ts              # Gemini prompt builder + leak guard + unit tests
+│       ├── seoMeta.ts                # Duplicate-free SEO head tag synchronizer + unit tests
 │       ├── shareCardLayout.ts        # Pure Canvas line-wrapping helper + unit tests
 │       └── shareCardRenderer.ts      # HTML5 Canvas Leonida Sunset PNG postcard renderer
 ├── index.html                        # Full SEO meta tags, OpenGraph, Twitter Card, JSON-LD

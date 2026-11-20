@@ -9,12 +9,6 @@ import {
   sanitizeRecipientName,
 } from './excuseEngine';
 
-export interface RawLlmExcuse {
-  channel: Channel;
-  subject: string | null;
-  message: string;
-}
-
 const EMOJI_PATTERN = /\p{Extended_Pictographic}|\uFE0F|\u200D/gu;
 const PROFESSIONAL_LEAK_PATTERN =
   /\b(gta|gta\s*6|vice\s*city|leonida|rockstar|gaming|video\s*game|game\s*khelna|khelna\s*hai|ps5|xbox|playstation|controller|ukhadna|ukhadle)\b/i;
@@ -31,7 +25,7 @@ export function containsEmoji(text: string): boolean {
   return /\p{Extended_Pictographic}/u.test(text);
 }
 
-export function getMaxLengthForChannel(channel: Channel): number {
+function getMaxLengthForChannel(channel: Channel): number {
   if (channel === 'email') return 600;
   return 280;
 }
@@ -47,11 +41,11 @@ Inputs: persona (student|corporate|job_holder), channel (whatsapp|email|telegram
 
 Rules:
 1. If context is given, ALWAYS weave in or transform its underlying situation to fit the selected expression and channel. Never return raw slang or rude phrases verbatim.
-2. Never mention gaming, GTA, Vice City, or anything implausible if expression is professional — invent a plausible, vague cover reason instead.
+2. Never mention gaming, GTA, Vice City, or anything implausible if expression is professional. Invent a plausible, vague cover reason instead.
 3. If no context is given, invent a fitting excuse based on persona and expression.
 4. expression=casual: natural spoken Hindi-Urdu-English mix common across both India and Pakistan (shared words like yaar, bhai/bro, thoda, bas, acha, shukriya/thanks, sorry yr). Avoid India-only Bollywood slang and avoid heavy formal Urdu. Believable everyday excuse with 1-3 everyday WhatsApp emojis (like 🙏😅🤒).
 5. expression=professional: polished Hinglish leaning more English, ZERO emojis, no slang, respectful and plausible.
-6. expression=meme: full GTA 6 launch-day parody energy in shared India/Pakistan Hinglish for friends and group chats! Playfully reference the 12-year wait, 150GB launch download, Vice City / Leonida urgent errands, or controller cramps — creatively spinning the user's context into a funny, light-hearted parody excuse with 1-3 fun emojis (🎮🌴😅🙏). Keep it witty, polite, and never offensive or rude.
+6. expression=meme: full GTA 6 launch-day parody energy in shared India/Pakistan Hinglish for friends and group chats! Playfully reference the 12-year wait, 150GB launch download, Vice City / Leonida urgent errands, or controller cramps, creatively spinning the user's context into a funny, light-hearted parody excuse with 1-3 fun emojis (🎮🌴😅🙏). Keep it witty, polite, and never offensive or rude.
 7. Channel formatting rules always apply regardless of expression (WhatsApp/Telegram short 2-4 lines with subject=null; Telegram includes 2-3 **bold** spans; Email always has subject + greeting + 2-3 line body + sign-off).`;
 }
 
