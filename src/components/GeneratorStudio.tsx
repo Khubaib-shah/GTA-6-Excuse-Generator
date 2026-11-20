@@ -7,10 +7,10 @@ import {
   RefreshCw,
   X,
 } from 'lucide-react';
-import panelControllerArt from '../assets/images/panel_controller_dusk_1795131903542.jpg';
-import panelOceanDriveArt from '../assets/images/panel_ocean_drive_1795131905536.jpg';
-import panelViceBayArt from '../assets/images/panel_vice_bay_1795131903720.jpg';
-import heroSunsetArt from '../assets/images/vice_sunset_hero_1795131903658.jpg';
+import panelControllerArt from '../assets/images/panel_controller_dusk_1795131903542.webp';
+import panelOceanDriveArt from '../assets/images/panel_ocean_drive_1795131905536.webp';
+import panelViceBayArt from '../assets/images/panel_vice_bay_1795131903720.webp';
+import heroSunsetArt from '../assets/images/vice_sunset_hero_1795131903658.webp';
 import {
   CHANNEL_OPTIONS,
   CONTEXT_STARTERS,
@@ -601,6 +601,10 @@ export function GeneratorStudio({
                     <img
                       src={art.src}
                       alt={art.alt}
+                      width={800}
+                      height={600}
+                      loading="lazy"
+                      decoding="async"
                       referrerPolicy="no-referrer"
                       className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
                     />
@@ -651,6 +655,10 @@ export function GeneratorStudio({
             <img
               src={heroSunsetArt}
               alt=""
+              width={1440}
+              height={810}
+              loading="lazy"
+              decoding="async"
               aria-hidden="true"
               referrerPolicy="no-referrer"
               className="pointer-events-none absolute inset-0 -z-20 h-full w-full object-cover object-center opacity-55"

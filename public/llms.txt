@@ -1,0 +1,13 @@
+# Sick Day VI (Chhutti 6)
+
+> Free GTA 6 themed Hinglish excuse generator for believable office leave excuses and GTA 6 launch day funny excuses across WhatsApp, Email, and Telegram, with downloadable Leonida Sunset PNG postcards.
+
+Sick Day VI helps students, corporate professionals, and job holders craft ready-to-send Hinglish and English day-off messages in Casual, Professional (zero emojis, zero gaming leaks), and GTA 6 Meme modes. Standard generation runs instantaneously in the browser from 288 curated local JSON templates with zero API usage, while custom user context triggers server-side Gemini AI rewriting.
+
+## Core Pages
+- [Sick Day VI Hinglish Excuse Generator](https://gtavi.thekhubaib.me/): Interactive excuse generator studio supporting Student, Corporate, and Job Holder personas across WhatsApp, Email, and Telegram, plus HTML5 Canvas PNG postcard export.
+- [Privacy Policy](https://gtavi.thekhubaib.me/privacy-policy): Full data transparency covering zero-account local JSON generation, optional context-only AI processing, local PNG export, and Google AdSense cookie disclosures.
+
+## Discovery & Metadata
+- [XML Sitemap](https://gtavi.thekhubaib.me/sitemap.xml): Search engine sitemap indexing all public routes on gtavi.thekhubaib.me.
+- [Robots Directives](https://gtavi.thekhubaib.me/robots.txt): Crawler rules and canonical sitemap pointer.

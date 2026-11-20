@@ -1,0 +1,20 @@
+{
+  "specVersion": "0.91",
+  "host": {
+    "displayName": "Sick Day VI (Chhutti 6)",
+    "identifier": "gtavi.thekhubaib.me"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:gtavi.thekhubaib.me:content:llms",
+      "displayName": "Sick Day VI (Chhutti 6) Site Guide",
+      "type": "text/markdown",
+      "url": "https://gtavi.thekhubaib.me/llms.txt",
+      "representativeQueries": [
+        "Generate a believable Hinglish office leave excuse for WhatsApp or Email",
+        "Create a GTA 6 launch day funny excuse message",
+        "Read the Sick Day VI privacy policy and data practices"
+      ]
+    }
+  ]
+}

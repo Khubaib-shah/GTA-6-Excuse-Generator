@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { ChevronDown } from 'lucide-react';
-import heroSunsetArt from '../assets/images/vice_sunset_hero_1795131903658.jpg';
+import heroSunsetArt from '../assets/images/vice_sunset_hero_1795131903658.webp';
 import { HERO_MARQUEE_CONTEXTS } from '../types/excuse';
 import { ViceEmblem } from './ViceEmblem';
 
@@ -97,6 +97,10 @@ export function ViceHero({
         <img
           src={heroSunsetArt}
           alt=""
+          width={1440}
+          height={810}
+          fetchPriority="high"
+          decoding="async"
           referrerPolicy="no-referrer"
           className="leonida-hero-drift h-full w-full object-cover object-center"
         />

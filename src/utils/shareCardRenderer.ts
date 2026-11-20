@@ -1,4 +1,4 @@
-import heroSunsetArtUrl from '../assets/images/vice_sunset_hero_1795131903658.jpg';
+import heroSunsetArtUrl from '../assets/images/vice_sunset_hero_1795131903658.webp';
 import type { ExcuseResult } from '../types/excuse';
 import {
   CHANNEL_OPTIONS,

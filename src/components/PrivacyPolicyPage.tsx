@@ -35,7 +35,7 @@ export function PrivacyPolicyPage({ onBackHome }: PrivacyPolicyPageProps) {
   const origin =
     typeof window !== 'undefined'
       ? window.location.origin
-      : 'https://sickday6.thekhubaib.me';
+      : 'https://gtavi.thekhubaib.me';
 
   const structuredData = {
     '@context': 'https://schema.org',

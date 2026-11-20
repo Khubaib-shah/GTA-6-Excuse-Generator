@@ -39,11 +39,12 @@ export function Navbar({ onStartClick, onNavigateSection }: NavbarProps) {
         >
           <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-full bg-[#FAF7F4] ring-1 ring-[#FFB0C4]/60 shadow-[0_4px_14px_rgba(17,14,26,0.45)] transition-transform duration-200 group-hover:scale-105 sm:h-10 sm:w-10">
             <img
-              src="/assets/aistudio/gta-v1-logo_c43a42aa.png"
+              src="/logo-mascot.webp"
               alt="Sick Day VI mascot logo"
               width={40}
               height={40}
-              className="h-full w-full -scale-x-100 object-cover"
+              decoding="async"
+              className="h-full w-full object-cover"
             />
           </span>
           <span className="inline-flex items-center gap-1.5">

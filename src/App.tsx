@@ -1,11 +1,9 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useRef, useState } from 'react';
 import { FaqSection } from './components/FaqSection';
 import { Footer } from './components/Footer';
 import { GeneratorStudio } from './components/GeneratorStudio';
 import { Navbar } from './components/Navbar';
-import { PrivacyPolicyPage } from './components/PrivacyPolicyPage';
 import { ScrollReveal } from './components/ScrollReveal';
-import { ShareModal } from './components/ShareModal';
 import { ViceHero } from './components/ViceHero';
 import { fetchExcuseOrFallback } from './services/excuseClient';
 import type {
@@ -19,10 +17,19 @@ import {
   rehydrateTemplateRecipient,
 } from './utils/excuseEngine';
 import { isPrivacyPolicyPath, syncDocumentHead } from './utils/seoMeta';
-import {
-  renderShareCardPng,
-  type RenderedShareCard,
-} from './utils/shareCardRenderer';
+import type { RenderedShareCard } from './utils/shareCardRenderer';
+
+const PrivacyPolicyPage = lazy(() =>
+  import('./components/PrivacyPolicyPage').then((mod) => ({
+    default: mod.PrivacyPolicyPage,
+  })),
+);
+
+const ShareModal = lazy(() =>
+  import('./components/ShareModal').then((mod) => ({
+    default: mod.ShareModal,
+  })),
+);
 
 export default function App() {
   const [pathname, setPathname] = useState<string>(() =>
@@ -201,6 +208,7 @@ export default function App() {
   const handleShare = useCallback(async () => {
     setIsExporting(true);
     try {
+      const { renderShareCardPng } = await import('./utils/shareCardRenderer');
       const rendered = await renderShareCardPng(excuse);
       setShareCard(rendered);
       setIsShareOpen(true);
@@ -224,7 +232,13 @@ export default function App() {
 
       <main>
         {isPrivacyPage ? (
-          <PrivacyPolicyPage onBackHome={navigateToHome} />
+          <Suspense
+            fallback={
+              <div className="mx-auto min-h-[70vh] w-full max-w-4xl px-4 pt-32 pb-16 sm:px-6" />
+            }
+          >
+            <PrivacyPolicyPage onBackHome={navigateToHome} />
+          </Suspense>
         ) : (
           <>
             <ViceHero
@@ -274,12 +288,16 @@ export default function App() {
         onGoHome={() => navigateToHome()}
       />
 
-      <ShareModal
-        isOpen={isShareOpen}
-        card={shareCard}
-        excuse={excuse}
-        onClose={() => setIsShareOpen(false)}
-      />
+      {isShareOpen && (
+        <Suspense fallback={null}>
+          <ShareModal
+            isOpen={isShareOpen}
+            card={shareCard}
+            excuse={excuse}
+            onClose={() => setIsShareOpen(false)}
+          />
+        </Suspense>
+      )}
     </div>
   );
 }
