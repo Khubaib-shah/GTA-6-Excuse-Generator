@@ -1,0 +1,6 @@
+{
+  "name": "Chhutti 6 — GTA 6 Sick Day Excuse Generator",
+  "description": "Hinglish sick day excuse generator for WhatsApp, Email, and Telegram — launch day hype ke liye funny aur believable bahane.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,2306 @@
+[
+  {
+    "id": "st-wa-1",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj thodi tabiyat kharab lag rahi hai 🤒\nSubah se sir bhari ho raha hai, class miss karni padegi.\nKal notes cover kar lunga aur assignment ke saath aa jaunga 🙏"
+  },
+  {
+    "id": "st-wa-2",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Good morning {name}, aaj college nahi aa paunga 😅\nRaat bhar neend bilkul nahi aayi, aankhein laal ho rakhi hain.\nAaj thoda rest le raha hoon, kal full attendance pakki!"
+  },
+  {
+    "id": "st-wa-3",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, ghar pe aaj subah se kuch urgent kaam aa gaya hai 🙏\nAmmi ne bola ruk ja, koi aur hai nahi ghar pe.\nAaj ka lecture dost se samajh lunga, kal pakka milte hain!"
+  },
+  {
+    "id": "st-wa-4",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hello {name}, aaj halka fever aur body ache feel ho raha hai 🤒\nDoctor ne bola aaj aaram kar lo warna badh jayega.\nKal fresh ho ke seedha first lecture mein dikhunga 🙏"
+  },
+  {
+    "id": "st-wa-5",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj pet thoda kharab hai, bahar ka kha liya tha kal shaam 😅\nClass mein baithne ki halat bilkul nahi lag rahi.\nKal sab pending kaam complete kar ke submit kar dunga!"
+  },
+  {
+    "id": "st-wa-6",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj subah utha toh gala bilkul baitha hua hai 😷\nBolne mein bhi dikkat ho rahi hai, attendance ka thoda dhyan rakh lena 🙏\nKal tak theek ho jaunga aur class join kar lunga!"
+  },
+  {
+    "id": "st-wa-7",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hi {name}, aaj bike start nahi ho rahi aur ride bhi nahi mil rahi 😅\nGhar se nikalne ka scene hi atak gaya aaj.\nAaj ghar se hi padhai kar lunga, kal time pe pahunch jaunga!"
+  },
+  {
+    "id": "st-wa-8",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj sir mein kaafi dard aur halka migraine lag raha hai 🤒\nScreen aur board dono dekha nahi ja raha.\nAaj rest kar ke kal se regular aaunga, thanks 🙏"
+  },
+  {
+    "id": "st-wa-9",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Good morning {name}, aaj ghar pe relatives aaye hue hain aur kuch zaroori kaam hai 🙏\nAaj ki class skip karni pad rahi hai unfortunately.\nKal saare notes copy kar ke ready rahunga!"
+  },
+  {
+    "id": "st-wa-10",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, kal raat thand lag gayi shayad, aaj subah se chheenk ruk nahi rahi 🤧\nClass mein baaki logon ko disturb nahi karna chahta.\nKal se bilkul fit ho ke aa jaunga, sorry yr 🙏"
+  },
+  {
+    "id": "st-tg-1",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj subah se **thoda sir bhari hai** 🤒\nLagta hai halka viral pakad raha hai, toh aaj rest lena best rahega.\nKal **assignment ke saath** time pe class mein milunga 🙏"
+  },
+  {
+    "id": "st-tg-2",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Good morning {name}, aaj **college nahi aa paunga** 😅\nRaat bhar aankh nahi lagi, aaj brain bilkul **low battery** mode pe hai.\nAaj ke notes cover kar lunga, kal se full active!"
+  },
+  {
+    "id": "st-tg-3",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, ghar pe **urgent family kaam** aa gaya hai subah-subah 🙏\nAaj nikalna mushkil lag raha hai.\n**Kal ka lecture** bilkul miss nahi karunga, promise!"
+  },
+  {
+    "id": "st-tg-4",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hi {name}, aaj **body ache aur thakaan** kaafi zyada hai 🤒\nAaj dawai le ke so raha hoon taaki kal tak proper theek ho jaun.\nAttendance ka thoda **adjust** ho sake toh shukriya 🙏"
+  },
+  {
+    "id": "st-tg-5",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, kal bahar ka khaana **heavy pad gaya** 😅\nSubah se pet upset hai, aaj class attend karna risky lag raha hai.\nKal fresh ho ke **saare pending notes** complete kar dunga!"
+  },
+  {
+    "id": "st-tg-6",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hello {name}, aaj **migraine ka attack** jaisa feel ho raha hai 🤒\nLight aur shor dono se sir dard badh raha hai.\nAaj off le raha hoon, **kal se 100% regular** rahunga!"
+  },
+  {
+    "id": "st-tg-7",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, subah se **gala kharab aur halka bukhar** lag raha hai 😷\nAaj ghar pe chai aur aaram chal raha hai.\n**Kal tak fit** ho ke seedha lab aur lecture dono attend karunga!"
+  },
+  {
+    "id": "st-tg-8",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hi {name}, aaj subah **transport ka pura scene** atak gaya 😅\nGhar se college pahunchne mein aadha din nikal jayega.\nAaj ghar se **self-study** kar lunga, kal time pe pahunch jaunga!"
+  },
+  {
+    "id": "st-tg-9",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj **doctor ke paas checkup** ke liye jaana hai 🙏\nAppointment subah ka mila hai toh class clash ho rahi hai.\nJo bhi aaj padhaya jayega, **shaam tak cover** kar lunga!"
+  },
+  {
+    "id": "st-tg-10",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Good morning {name}, aaj **neend aur thakaan** dono peak pe hain 😅\nAaj class mein aake bhi focus nahi ho payega.\nAaj ka din **rest** le raha hoon, kal se bilkul sharp milunga!"
+  },
+  {
+    "id": "st-em-1",
+    "persona": "student",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Aaj ki class se chhutti chahiye",
+    "body": "Hello {name},\n\nAaj subah se meri tabiyat thodi theek nahi lag rahi aur halka sir dard bhi hai 🤒 Isliye aaj ki classes attend karna mushkil hoga.\n\nMain aaj ke saare notes friends se le kar cover kar lunga aur kal se time par class join karunga 🙏\n\nThanks,\nStudent"
+  },
+  {
+    "id": "st-em-2",
+    "persona": "student",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Leave ke liye request - Tabiyat down hai",
+    "body": "Hi {name},\n\nKal shaam se mujhe thoda feverish aur weak feel ho raha hai 🤒 Doctor ne aaj ek din complete rest lene ko kaha hai.\n\nPlease aaj ki leave adjust kar dijiye. Kal assignment aur pending kaam ke saath class mein present rahunga 🙏\n\nThanks,\nStudent"
+  },
+  {
+    "id": "st-em-3",
+    "persona": "student",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Ghar par urgent kaam - Aaj absent rahunga",
+    "body": "Hello {name},\n\nAaj subah ghar par ek zaroori family kaam aa gaya hai jismein mera rukna important hai 😅 Isi wajah se main aaj college nahi aa paunga.\n\nAaj jo bhi topic cover hoga use main shaam tak padh kar ready rakhunga aur kal se regular rahunga 🙏\n\nShukriya,\nStudent"
+  },
+  {
+    "id": "st-em-4",
+    "persona": "student",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "One day sick leave - Aaj rest ki zaroorat hai",
+    "body": "Hi {name},\n\nAaj subah uthne ke baad se gala kharab aur kaafi body ache feel ho raha hai 😷 Class mein baith kar concentrate karna mushkil lag raha hai.\n\nAaj dawai aur aaram kar raha hoon taaki kal se bilkul fresh ho kar lectures attend kar sakun.\n\nThanks,\nStudent"
+  },
+  {
+    "id": "st-em-5",
+    "persona": "student",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Aaj ki class miss karni padegi - Health issue",
+    "body": "Hello {name},\n\nKal raat se thoda stomach upset aur weakness feel ho rahi hai 😅 Isliye aaj campus aana possible nahi ho payega.\n\nMain apne classmates se aaj ka syllabus update le lunga aur kal bina miss kiye saari classes attend karunga 🙏\n\nThanks,\nStudent"
+  },
+  {
+    "id": "st-em-6",
+    "persona": "student",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Aaj ke lecture se leave - Sir dard issue",
+    "body": "Hi {name},\n\nAaj subah se mujhe kaafi tez sir dard aur eye strain ho raha hai 🤒 Screen ya board par focus karna abhi kaafi mushkil hai.\n\nEk din ka aaram mil jaye toh kal se full energy ke saath class aur lab dono join kar lunga 🙏\n\nThank you,\nStudent"
+  },
+  {
+    "id": "st-em-7",
+    "persona": "student",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Doctor checkup ki wajah se aaj leave",
+    "body": "Hello {name},\n\nAaj subah mera routine medical checkup hai jo class timings ke saath clash ho raha hai 🙏 Isliye aaj college aana possible nahi hoga.\n\nAaj ka saara classwork main kal tak complete kar ke submit kar dunga. Please aaj ki leave grant kar dijiye.\n\nThanks,\nStudent"
+  },
+  {
+    "id": "st-em-8",
+    "persona": "student",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Aaj absent rahunga - Halka viral lag raha hai",
+    "body": "Hi {name},\n\nMujhe subah se cold aur halka bukhar lag raha hai 🤧 Precaution ke liye aaj ghar par hi rest kar raha hoon taaki baaki logon ko bhi problem na ho.\n\nKal tak theek ho kar regular classes join kar lunga. Aaj ke topics main khud revise kar lunga 🙏\n\nShukriya,\nStudent"
+  },
+  {
+    "id": "st-em-9",
+    "persona": "student",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Aaj ke liye short leave request",
+    "body": "Hello {name},\n\nKal raat bilkul neend poori nahi ho payi aur subah se kaafi dizziness feel ho rahi hai 😅 Aaj class mein aakar dhyaan dena mushkil hoga.\n\nAaj thoda aaram kar ke kal bilkul time par aur fresh mind ke saath class mein aaunga 🙏\n\nThanks,\nStudent"
+  },
+  {
+    "id": "st-em-10",
+    "persona": "student",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Aaj ki attendance update - Personal kaam",
+    "body": "Hi {name},\n\nAaj subah ek unexpected personal kaam aa gaya hai jise postpone nahi kiya ja sakta 🙏 Isi kaaran aaj ki classes miss karni pad rahi hain.\n\nMain shaam tak aaj ke saare notes cover kar lunga aur kal se 100% regular rahunga.\n\nThanks,\nStudent"
+  },
+  {
+    "id": "co-wa-1",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj thoda sir bhari hai, kal se fresh ho ke aaunga 🤒\nSubah se screen dekhne mein dikkat ho rahi hai.\nUrgent kuch ho toh ping kar dena, warna kal subah sab clear kar dunga 🙏"
+  },
+  {
+    "id": "co-wa-2",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, ghar me kal se kuch urgent ho gaya hai, aaj thoda WFH jaisa kar sakta hoon? 🙏\nOffice aane ka scene nahi ban paa raha subah se.\nMessages aur calls pe available rahunga, tension mat lena 😅"
+  },
+  {
+    "id": "co-wa-3",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Morning {name}, aaj tabiyat thodi down lag rahi hai 🤒\nHalka feverish feel ho raha hai, aaj sick leave le raha hoon.\nKal double speed se pending tickets nipta dunga, thanks 🙏"
+  },
+  {
+    "id": "co-wa-4",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hi {name}, aaj subah se Wi-Fi aur sir dono hang ho rakhe hain 😅\nHalka migraine shuru ho gaya hai, aaj off lena padega.\nTeam ko handover de diya hai, kal subah standup mein milte hain!"
+  },
+  {
+    "id": "co-wa-5",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, raat ko neend bilkul nahi aayi, aaj brain 10% battery pe chal raha hai 😅\nAaj kaam karunga toh bugs zyada ban jayenge.\nAaj rest kar ke kal se sharp wapas aaunga, sorry yr 🙏"
+  },
+  {
+    "id": "co-wa-6",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hey {name}, aaj pet thoda kharab hai, kal raat ka bahar ka khaana lag gaya 😅\nAaj office aana mushkil hai, rest le raha hoon.\nKoi blocker aaye toh WhatsApp kar dena, kal full day active 🙏"
+  },
+  {
+    "id": "co-wa-7",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj doctor appointment hai subah ka, aur thodi body ache bhi hai 🤒\nAaj leave mark kar raha hoon portal pe.\nMere tasks already track pe hain, kal se resume kar dunga 🙏"
+  },
+  {
+    "id": "co-wa-8",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Good morning {name}, aaj thoda personal kaam aa gaya achanak 😅\nOffice aana mushkil ho raha hai, aaj ek din ka off le raha hoon.\nMera side thoda dekh lena, kal sab cover kar dunga 🙏"
+  },
+  {
+    "id": "co-wa-9",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj subah se gala baitha hua hai aur chheenk aa rahi hai 🤧\nCalls pe bolna mushkil hoga aaj, toh sick day le raha hoon.\nKal tak theek ho ke saare updates share kar dunga 🙏"
+  },
+  {
+    "id": "co-wa-10",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hi {name}, ghar pe aaj electrician aur internet dono ka kaam chal raha hai 😅\nAaj office aana ya proper calls lena mushkil lag raha hai.\nAaj ka leave adjust kar lena, kal sab extra cover kar dunga 🙏"
+  },
+  {
+    "id": "co-tg-1",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj **thoda sir bhari hai** aur screen dekhna mushkil ho raha hai 🤒\nAaj ka din **sick leave** le raha hoon.\nKal subah **fresh ho ke** saare pending tasks clear kar dunga 🙏"
+  },
+  {
+    "id": "co-tg-2",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Morning {name}, ghar mein **thoda urgent scene** ho gaya hai 😅\nAaj office aana mushkil hai, **WFH ya half-day** chalega kya?\nKoi bhi critical update ho toh bas **ping kar dena** 🙏"
+  },
+  {
+    "id": "co-tg-3",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hi {name}, aaj **body battery 5%** pe chal rahi hai 🤒\nHalka fever aur body ache feel ho raha hai subah se.\nAaj **complete rest** le raha hoon, kal standup mein pakka milunga!"
+  },
+  {
+    "id": "co-tg-4",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, kal raat **neend bilkul nahi aayi**, aankhein thak gayi hain 😅\nAaj login karunga bhi toh **zero productivity** hogi.\nEk din ka **rest leave** le raha hoon, kal double speed se cover 🙏"
+  },
+  {
+    "id": "co-tg-5",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hey {name}, aaj **migraine trigger** ho gaya hai subah se 🤒\nBright laptop screen bilkul bardaasht nahi ho rahi.\nTeam ko **quick handover** de diya hai, kal se back on track!"
+  },
+  {
+    "id": "co-tg-6",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, bahar ka khana **backfire kar gaya** kal raat 😅\nAaj tabiyat bilkul office wali nahi hai.\nAaj **sick day** mark kar raha hoon, kal sab backlog clear kar dunga 🙏"
+  },
+  {
+    "id": "co-tg-7",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Good morning {name}, aaj **gala kharab aur halka cold** pakad liya hai 🤧\nClient calls pe aawaz nahi niklegi aaj.\nAaj **aaram kar raha hoon**, kal se full normal schedule!"
+  },
+  {
+    "id": "co-tg-8",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hi {name}, aaj **routine health checkup** aur thodi weakness hai 🙏\nClinic se aate-aate afternoon ho jayega.\nAaj **leave pe rahunga**, urgent blocker ho toh text drop kar dena!"
+  },
+  {
+    "id": "co-tg-9",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj **personal emergency** ki wajah se offline rahunga 🙏\nPriority deliverables kal hi **push kar diye the**.\nKal subah **dot time pe** login kar ke baki sab sambhal lunga!"
+  },
+  {
+    "id": "co-tg-10",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Morning {name}, aaj **thoda personal kaam** aa gaya achanak 😅\nAaj office aana mushkil lag raha hai.\nKal fresh mind ke saath **saare sprints** catch up kar lunga 🙏"
+  },
+  {
+    "id": "co-em-1",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Sick Leave Today - Thodi tabiyat down hai",
+    "body": "Hi {name},\n\nAaj subah se mujhe halka fever aur kaafi sir dard feel ho raha hai 🤒 Isliye aaj properly focus kar paana mushkil hoga. Aaj ke liye sick leave le raha hoon.\n\nMere current tasks team ke saath sync mein hain. Koi urgent blocker ho toh ping kar dena, warna kal subah sab clear kar dunga 🙏\n\nThanks"
+  },
+  {
+    "id": "co-em-2",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "WFH / Leave Request - Ghar par urgent kaam",
+    "body": "Hello {name},\n\nGhar par kal shaam se ek urgent personal kaam aa gaya hai jiski wajah se aaj office commute karna possible nahi ho payega 😅 Kya main aaj light WFH ya leave le sakta hoon?\n\nImportant messages par nazar rakhunga aur kal se regular office timing par wapas join kar lunga 🙏\n\nThanks"
+  },
+  {
+    "id": "co-em-3",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Out of Office Today - Migraine & Rest",
+    "body": "Hi {name},\n\nAaj subah se thoda tez migraine aur eye strain feel ho raha hai 🤒 Laptop screen par kaam karna kaafi uncomfortable hai, toh aaj ek din ka rest le raha hoon.\n\nAaj ke standup updates maine doc mein add kar diye hain. Kal subah se full energy ke saath back on track rahunga 🙏\n\nThanks"
+  },
+  {
+    "id": "co-em-4",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Sick Day Update - Tabiyat thodi off hai",
+    "body": "Hi {name},\n\nKal raat se thoda viral aur body ache jaisa lag raha hai 🤒 Doctor ne aaj complete rest suggest kiya hai taaki recovery jaldi ho sake.\n\nAaj offline rahunga, koi critical issue ho toh phone par reach out kar sakte hain. Kal se regular kaam resume kar dunga 🙏\n\nShukriya"
+  },
+  {
+    "id": "co-em-5",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Leave for Today - Stomach upset",
+    "body": "Hi {name},\n\nAaj subah se meri health thodi off hai (stomach upset aur weakness) 😅 Isliye aaj login karna mushkil hoga. Please aaj ki sick leave consider kar lijiye.\n\nSaare urgent items kal hi wrap up kar diye the, baaki pending updates kal subah first half mein close kar dunga 🙏\n\nThanks"
+  },
+  {
+    "id": "co-em-6",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Sick Day Today - Cold & Throat Issue",
+    "body": "Hello {name},\n\nAaj subah se gala kaafi kharab hai aur lagatar cold ho raha hai 🤧 Meetings aur calls attend karna mushkil hoga, toh aaj sick leave le raha hoon.\n\nTeam ko inform kar diya hai taaki koi workflow na ruke. Kal tak better feel kar ke wapas join kar lunga 🙏\n\nThanks"
+  },
+  {
+    "id": "co-em-7",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Personal Leave Today - Urgent errand",
+    "body": "Hi {name},\n\nAaj subah ek unavoidable personal kaam aa gaya hai jise postpone nahi kiya ja sakta 😅 Is kaaran aaj ke liye casual leave le raha hoon.\n\nMera saara handover updated hai aur kal subah time par login kar ke sab pending kaam cover kar lunga 🙏\n\nThanks"
+  },
+  {
+    "id": "co-em-8",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Sick Leave - Need a rest day today",
+    "body": "Hello {name},\n\nPichle kuch dino ki bhaag-daud ke baad aaj kaafi thakaan aur sir bhari lag raha hai 🤒 Aaj ek din ka rest le raha hoon taaki kal se proper focus ke saath kaam kar sakun.\n\nUrgent queries ke liye phone par available rahunga. Kal se full speed mein milte hain 🙏\n\nThanks"
+  },
+  {
+    "id": "co-em-9",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Medical Checkup - Leave for Today",
+    "body": "Hi {name},\n\nAaj subah doctor ke paas follow-up checkup ke liye jaana hai aur thodi weakness bhi lag rahi hai 🙏 Isliye aaj leave par rahunga.\n\nAaj ki scheduled tasks ka status tracker mein update kar diya hai. Kal subah se normal working hours resume karunga.\n\nThank you"
+  },
+  {
+    "id": "co-em-10",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Aaj ke liye Leave - Health & Recovery",
+    "body": "Hi {name},\n\nKal raat bilkul neend nahi ho payi aur subah se halka feverish feel ho raha hai 🤒 Aaj dawai le kar rest karna better rahega.\n\nPlease aaj ki leave approve kar dijiye. Kal se bilkul fresh ho kar saare deliverables time par complete kar dunga 🙏\n\nThanks"
+  },
+  {
+    "id": "jh-wa-1",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj thoda sir bhari aur body ache hai 🤒\nAaj ki shift kar paana mushkil lag raha hai.\nKal se bilkul time pe duty pe aa jaunga, aaj adjust kar lena 🙏"
+  },
+  {
+    "id": "jh-wa-2",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hello {name}, aaj subah se halka bukhar lag raha hai 🤒\nAaj shift pe aaunga toh dhang se kaam nahi ho payega.\nAaj chhutti de dijiye, kal se extra cover kar dunga 🙏"
+  },
+  {
+    "id": "jh-wa-3",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, ghar pe aaj subah kuch zaroori kaam nikal aaya hai 😅\nKoi aur sambhalne wala nahi hai isliye rukna pad raha hai.\nAaj ki duty miss karni padegi, kal dot time pe pahunch jaunga 🙏"
+  },
+  {
+    "id": "jh-wa-4",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hi {name}, aaj pet kaafi kharab hai subah se 😅\nKhade reh kar shift puri karna mushkil lag raha hai.\nAaj dawai le ke aaram kar raha hoon, kal se pakka duty pe 🙏"
+  },
+  {
+    "id": "jh-wa-5",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj bike mein dikkat aa gayi aur subah se tabiyat bhi thodi down hai 😅\nAaj ki shift ke liye sorry, nahi pahunch paunga.\nKal subah sabse pehle pahunch ke kaam sambhal lunga 🙏"
+  },
+  {
+    "id": "jh-wa-6",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Good morning {name}, pichle hafte ki lagatar shifts ke baad aaj badan toot raha hai 🤒\nHalka chakkar aur thakaan lag rahi hai subah se.\nAaj ek din ka rest mil jaye toh kal se full energy mein aaunga 🙏"
+  },
+  {
+    "id": "jh-wa-7",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj subah se zukham aur gala kharab ho gaya hai 🤧\nTeam ke saamne khansna theek nahi lagega.\nAaj ghar pe aaram kar raha hoon, kal se regular duty pakki 🙏"
+  },
+  {
+    "id": "jh-wa-8",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hi {name}, aaj doctor ko dikhane jaana hai subah 🙏\nPair mein thodi moch aur dard lag raha hai kal shaam se.\nAaj ki shift please manage kar lena, kal se normal join kar lunga!"
+  },
+  {
+    "id": "jh-wa-9",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, kal raat ghar mein emergency ki wajah se bilkul so nahi paya 😅\nAaj shift pe galti hone ka dar hai isliye off maang raha hoon.\nKal bilkul fresh ho ke apni shift puri karunga 🙏"
+  },
+  {
+    "id": "jh-wa-10",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hello {name}, aaj thodi kamzori aur sir dard ho raha hai 🤒\nAaj ki duty nahi ho payegi, please aaj ka off laga dijiye.\nChahein toh aage kisi off day pe shift cover kar dunga 🙏"
+  },
+  {
+    "id": "jh-tg-1",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj subah se **thoda sir bhari aur bukhar** lag raha hai 🤒\nAaj ki **shift attend** karna mushkil hoga.\nKal subah **time pe duty** pe pahunch jaunga, aaj adjust kar lena 🙏"
+  },
+  {
+    "id": "jh-tg-2",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hello {name}, ghar pe **zaroori family kaam** aa gaya hai 😅\nAaj nikal paana mushkil lag raha hai.\nPlease aaj ki **duty cover** karwa dijiye, kal se 100% present rahunga 🙏"
+  },
+  {
+    "id": "jh-tg-3",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hi {name}, aaj **body ache aur thakaan** kaafi zyada hai 🤒\nLagatar shifts ke baad aaj halka viral lag raha hai.\nAaj **ek din ka rest** le raha hoon, kal se double energy ke saath aaunga!"
+  },
+  {
+    "id": "jh-tg-4",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj subah se **pet upset** hai, bahar ka khaana lag gaya 😅\nAaj floor pe **continuous shift** karna mushkil rahega.\nDawai le li hai, **kal tak theek** ho ke duty join kar lunga 🙏"
+  },
+  {
+    "id": "jh-tg-5",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Good morning {name}, aaj **gala kharab aur tez zukham** ho gaya hai 🤧\nAaj duty pe aana comfortable nahi lag raha.\nAaj **sick off** le raha hoon, kal se bina miss kiye shift karunga 🙏"
+  },
+  {
+    "id": "jh-tg-6",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj subah **clinic jaana hai** checkup ke liye 🙏\nKal shaam se kamar aur pair mein **thoda dard** lag raha hai.\nAaj ki shift ke liye sorry, **kal time pe** duty pe milunga!"
+  },
+  {
+    "id": "jh-tg-7",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hi {name}, raat bhar **neend nahi aayi** aur subah se chakkar jaisa lag raha hai 😅\nAaj kaam pe aake **focus nahi** ho payega.\nAaj **off de dijiye**, zaroorat padi toh aage extra shift cover kar dunga 🙏"
+  },
+  {
+    "id": "jh-tg-8",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, subah se **gaadi start nahi ho rahi** aur halka sir dard bhi hai 😅\nAaj shift tak pahunchne ka scene mushkil ho gaya.\nAaj ka **leave mark** kar dijiye, kal dot time pe pahunch jaunga 🙏"
+  },
+  {
+    "id": "jh-tg-9",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hello {name}, aaj **halka migraine** aur weakness feel ho rahi hai 🤒\nAaj rest lena zaroori lag raha hai taaki kal se problem na badhe.\n**Kal ki shift** bilkul time se join karunga 🙏"
+  },
+  {
+    "id": "jh-tg-10",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, ghar mein **urgent repair ka kaam** chal raha hai aur koi aur nahi hai 😅\nAaj ki duty skip karni pad rahi hai.\nAaj **manage kar lena**, kal se regular aur extra attentive rahunga 🙏"
+  },
+  {
+    "id": "jh-em-1",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Aaj ki shift se leave - Tabiyat kharab hai",
+    "body": "Hello {name},\n\nAaj subah se mujhe halka bukhar aur kaafi body ache feel ho raha hai 🤒 Is halat mein aaj ki shift puri karna mushkil hoga.\n\nPlease aaj ke liye mujhe sick off de dijiye. Kal tak theek ho kar bilkul time par duty join kar lunga 🙏\n\nShukriya"
+  },
+  {
+    "id": "jh-em-2",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Leave Request for Today Shift - Ghar par urgent kaam",
+    "body": "Hi {name},\n\nAaj subah ghar par ek zaroori family kaam aa gaya hai jismein mera hona important hai 😅 Isi wajah se main aaj ki shift attend nahi kar paunga.\n\nPlease aaj ki duty adjust kar lijiye. Kal se regular time par duty par present rahunga aur zaroorat hui toh aage extra cover kar dunga 🙏\n\nThanks"
+  },
+  {
+    "id": "jh-em-3",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Sick Leave Today - Stomach Upset",
+    "body": "Hello {name},\n\nKal raat se mera pet kaafi kharab hai aur subah se weakness lag rahi hai 😅 Aaj shift par aakar kaam karna mushkil rahega.\n\nAaj dawai le kar aaram kar raha hoon taaki kal se bilkul fit ho kar apni duty resume kar sakun 🙏\n\nThank you"
+  },
+  {
+    "id": "jh-em-4",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Unable to attend today shift - Cold & Fever",
+    "body": "Hi {name},\n\nAaj subah se mujhe tez zukham, gala kharab aur halka bukhar lag raha hai 🤧 Precaution ke liye aaj ghar par rest karna sahi rahega.\n\nPlease aaj ka off approve kar dijiye. Kal subah dot time par apni shift join kar lunga 🙏\n\nThanks"
+  },
+  {
+    "id": "jh-em-5",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "One Day Off Request - Sir dard aur thakaan",
+    "body": "Hello {name},\n\nPichle kuch dino ki lagatar duty ke baad aaj subah se kaafi sir dard aur thakaan feel ho rahi hai 🤒 Aaj ek din ka aaram mil jaye toh behtar rahega.\n\nAaj ki shift ke liye sorry. Kal bilkul fresh ho kar full energy ke saath duty par aaunga 🙏\n\nThanks"
+  },
+  {
+    "id": "jh-em-6",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Doctor visit ki wajah se aaj chhutti",
+    "body": "Hi {name},\n\nKal shaam se pair mein thoda dard lag raha hai, isliye aaj subah doctor ko dikhane jaana hai 🙏 Aaj ki shift attend karna possible nahi hoga.\n\nPlease aaj ka leave adjust kar dijiye. Kal se normal duty par wapas aa jaunga.\n\nShukriya"
+  },
+  {
+    "id": "jh-em-7",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Aaj duty par nahi aa paunga - Health issue",
+    "body": "Hello {name},\n\nAaj subah uthne ke baad se halka chakkar aur kamzori feel ho rahi hai 🤒 Doctor ne aaj rest aur proper neend lene ko bola hai.\n\nPlease aaj ki shift kisi aur ke saath adjust kar lijiye. Kal se bina miss kiye apni duty karunga 🙏\n\nThanks"
+  },
+  {
+    "id": "jh-em-8",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Short Notice Leave - Personal Urgency Today",
+    "body": "Hi {name},\n\nAaj subah ghar par ek unexpected urgent kaam aa gaya hai jise postpone nahi kiya ja sakta 😅 Is kaaran aaj ki shift miss karni pad rahi hai.\n\nShort notice ke liye sorry. Kal time par duty join kar lunga aur chahein toh aage ek shift swap kar ke cover kar dunga 🙏\n\nThanks"
+  },
+  {
+    "id": "jh-em-9",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Sick Day Notice - Mild Migraine",
+    "body": "Hello {name},\n\nAaj subah se mujhe kaafi tez sir dard (migraine) ho raha hai 🤒 Jiski wajah se aaj kaam par focus kar paana mushkil hoga.\n\nAaj ek din ka rest le raha hoon. Kal subah bilkul fresh aur ready ho kar apni shift par pahunch jaunga 🙏\n\nThanks"
+  },
+  {
+    "id": "jh-em-10",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Aaj ki shift ke liye leave update",
+    "body": "Hi {name},\n\nKal raat se thodi tabiyat theek nahi lag rahi aur subah se body ache bhi badh gaya hai 🤒 Aaj duty par aana mushkil lag raha hai.\n\nPlease aaj ki leave grant kar dijiye. Kal tak recover kar ke regular shift par wapas aa jaunga 🙏\n\nThanks"
+  },
+  {
+    "id": "pro-st-wa-1",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am feeling unwell today and will not be able to attend classes.\nMain aaj ke notes cover kar lunga and submit pending work tomorrow. Thank you for understanding."
+  },
+  {
+    "id": "pro-st-wa-2",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, due to an urgent personal matter at home, I will need to miss today's lectures.\nI will catch up on all coursework by tonight and join classes regularly from tomorrow."
+  },
+  {
+    "id": "pro-st-wa-3",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Respected {name}, I have a mild fever since morning and have been advised to take rest today.\nAaj ka syllabus main classmates se cover kar lunga. Thanks for your support."
+  },
+  {
+    "id": "pro-st-tg-1",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am not feeling well today and need to take a **sick day**.\nI will **catch up on all notes** by evening and attend classes on time tomorrow."
+  },
+  {
+    "id": "pro-st-tg-2",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, an **urgent personal matter** came up at home this morning, so I cannot make it to campus today.\nMain aaj ke **saare topics revise** kar lunga aur kal regular classes join karunga."
+  },
+  {
+    "id": "pro-st-tg-3",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Respected {name}, I have a scheduled **medical appointment** today that overlaps with lectures.\nI will submit my **pending assignment** tomorrow morning. Thank you for understanding."
+  },
+  {
+    "id": "pro-st-em-1",
+    "persona": "student",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Leave request for today",
+    "body": "Dear {name},\n\nI wanted to inform you that I will not be able to attend classes today due to a personal matter that requires my immediate attention. I will ensure all lecture notes and coursework are covered by this evening.\n\nThank you for your understanding. I will resume regular classes tomorrow.\n\nBest regards,\nStudent"
+  },
+  {
+    "id": "pro-st-em-2",
+    "persona": "student",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Sick leave application for today",
+    "body": "Respected {name},\n\nI am feeling under the weather since this morning with a mild headache and fatigue, so I will not be able to attend today's sessions. Main aaj ka classwork peers se collect kar ke complete kar lunga.\n\nKindly grant me leave for the day. I expect to be back in class tomorrow.\n\nSincerely,\nStudent"
+  },
+  {
+    "id": "pro-st-em-3",
+    "persona": "student",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Request for one day leave",
+    "body": "Hello {name},\n\nDue to an unavoidable family commitment today, I will be unable to attend campus lectures. I will stay updated on today's syllabus and submit any pending assignments on time tomorrow.\n\nThank you for your consideration.\n\nRegards,\nStudent"
+  },
+  {
+    "id": "pro-co-wa-1",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hi {name}, I am taking a sick day today as I am feeling slightly under the weather.\nMy current tasks are updated on the board, and I will catch up on anything pending tomorrow morning."
+  },
+  {
+    "id": "pro-co-wa-2",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I won't be able to make it in today due to a personal matter that needs my attention.\nI will stay reachable for anything urgent and cover pending items once I am back tomorrow."
+  },
+  {
+    "id": "pro-co-wa-3",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, aaj thoda unwell feel kar raha hoon, so I will need to take today off to rest.\nHandover is already shared with the team. Thanks for understanding."
+  },
+  {
+    "id": "pro-co-tg-1",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hi {name}, I need to take a **sick day today** as I have a mild headache and fever.\nAll **priority updates** are already logged, and I will resume normal hours tomorrow."
+  },
+  {
+    "id": "pro-co-tg-2",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, an **urgent personal matter** came up today, so I will be **out of office**.\nI will catch up on everything as soon as I am back tomorrow. Thank you for understanding."
+  },
+  {
+    "id": "pro-co-tg-3",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, I have a **medical checkup** today and will be taking leave.\nTeam has the **current status** of my deliverables, and I will be back online tomorrow morning."
+  },
+  {
+    "id": "pro-co-em-1",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Leave request for today",
+    "body": "Hi {name},\n\nI wanted to let you know I won't be able to make it in today due to a personal matter that needs my attention. All ongoing tasks are updated so the team is not blocked.\n\nI will catch up on everything as soon as I am back tomorrow. Thanks for understanding.\n\nBest regards"
+  },
+  {
+    "id": "pro-co-em-2",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Out of office today - Sick leave",
+    "body": "Hello {name},\n\nI am feeling unwell since this morning and will need to take a sick day today to recover. I have shared my status notes with the team to keep things moving smoothly.\n\nPlease message me if anything critical comes up; otherwise, I will be back on track tomorrow morning.\n\nRegards"
+  },
+  {
+    "id": "pro-co-em-3",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Short notice leave for today",
+    "body": "Dear {name},\n\nDue to an unavoidable personal commitment today, I am requesting a day off. Aaj ke priority deliverables maine kal hi update kar diye the, and I will close remaining items first thing tomorrow.\n\nThank you for your understanding and support.\n\nWarm regards"
+  },
+  {
+    "id": "pro-jh-wa-1",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am unwell today and will not be able to attend my scheduled shift.\nPlease accept my apologies for the short notice. I will report on time for tomorrow's duty."
+  },
+  {
+    "id": "pro-jh-wa-2",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, an urgent personal matter has come up at home today, so I need to request a day off.\nI am happy to cover an extra shift later this week if needed. Thank you for understanding."
+  },
+  {
+    "id": "pro-jh-wa-3",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hi {name}, aaj subah se tabiyat theek nahi hai, so I will not be able to make it to today's shift.\nI will rest today and resume regular duty on time tomorrow. Thanks for your support."
+  },
+  {
+    "id": "pro-jh-tg-1",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am feeling unwell today and need to take a **sick day** off from my shift.\nI apologize for the short notice and will **report on time** tomorrow."
+  },
+  {
+    "id": "pro-jh-tg-2",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, due to an **urgent family matter**, I will not be able to attend **today's duty**.\nI can help **cover a shift** later in the week if required. Thank you for understanding."
+  },
+  {
+    "id": "pro-jh-tg-3",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hi {name}, I have a **medical visit** today and will need to miss my scheduled shift.\nI will be **back on duty** at regular timing tomorrow morning."
+  },
+  {
+    "id": "pro-jh-em-1",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Leave request for today's shift",
+    "body": "Dear {name},\n\nI am writing to inform you that I will not be able to attend my shift today due to a personal matter that requires my immediate attention. I sincerely apologize for the short notice.\n\nI will resume my regular duty on time tomorrow and am available to cover an additional shift later if needed.\n\nThank you for understanding.\n\nRegards"
+  },
+  {
+    "id": "pro-jh-em-2",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Sick leave notice for today",
+    "body": "Hello {name},\n\nI am feeling unwell since this morning and will need to take sick leave for today's shift. Main aaj proper rest le kar kal subah time par duty join kar lunga.\n\nThank you for accommodating this request.\n\nBest regards"
+  },
+  {
+    "id": "pro-jh-em-3",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Unable to attend shift today",
+    "body": "Respected {name},\n\nDue to an unavoidable medical appointment today, I will be unable to report for my scheduled shift. I will ensure a smooth handover and return to regular duty tomorrow morning.\n\nThank you for your support.\n\nSincerely"
+  },
+  {
+    "id": "meme-st-wa-1",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj class ka scene mushkil hai 😅 12 saal wait kiya tha, finally GTA 6 ka 150GB download complete hua hai 🎮\nKal assignment aur Vice City ki full report dono le kar aa jaunga 🙏"
+  },
+  {
+    "id": "meme-st-wa-2",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hello {name}, aaj meri attendance Vice City mein lagi hui hai 🌴\nSubah se controller haath se chhoot hi nahi raha 😅 Kal se full focus lecture pe, promise 🙏"
+  },
+  {
+    "id": "meme-st-wa-3",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name} aaj lab skip karni padegi, doctor ne Bola hai GTA 6 launch day pe screen se door nahi hona 🎮\nNotes dost se le lunga, kal time pe class mein milte hain 😅"
+  },
+  {
+    "id": "meme-st-tg-1",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj **Vice City mein urgent field trip** aa gayi hai 🌴\n12 saal ka **historical launch** miss nahi kar sakta yaar 🎮 Kal **full attendance** aur assignment pakka 🙏"
+  },
+  {
+    "id": "meme-st-tg-2",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hi {name}, subah se **150GB patch install** ho raha hai, Wi-Fi aur dimaag dono busy hain 😅\nAaj **medical leave** samajh lo, kal se **padhai full speed** pe hogi 🎮"
+  },
+  {
+    "id": "meme-st-tg-3",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj **Leonida weather alert** ki wajah se college aana possible nahi 🌴\n**Controller fever** thoda high hai 😅 Kal subah fresh ho kar class mein milunga 🙏"
+  },
+  {
+    "id": "meme-st-em-1",
+    "persona": "student",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Urgent Leave Request: 12 Saal Baad Launch Day",
+    "body": "Dear {name},\n\nMain aaj college nahi aa paunga kyunki ek bahot zaroori 12-saal-purana commitment finally aaj launch ho gaya hai 🎮 Ghar par 150GB ka urgent research download chal raha hai.\n\nKal saare notes complete kar ke aur assignment ke saath class mein present rahunga 🙏\n\nRegards,\nVice City Scholar"
+  },
+  {
+    "id": "meme-st-em-2",
+    "persona": "student",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "One Day Sick Leave: Acute Controller Fever",
+    "body": "Respected {name},\n\nSubah uthte hi mujhe lag raha hai ki aaj meri tabiyat sirf Vice City ke sunset dekhne se hi theek hogi 🌴 Isliye aaj lectures attend karna thoda mushkil hai 😅\n\nKal se wapas syllabus aur campus dono pe full focus rahega. Shukriya!\n\nSincerely,\nStudent"
+  },
+  {
+    "id": "meme-st-em-3",
+    "persona": "student",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Leave Application for GTA 6 Launch Day",
+    "body": "Hello {name},\n\nAaj ka din itihaas mein darj hone wala hai, isliye aaj main campus se chhutti le raha hoon 🎮 Aaj ka classwork main doston se collect kar lunga aur kal bina late hue class join karunga.\n\nThank you for understanding this once-in-a-decade emergency 🙏\n\nBest regards"
+  },
+  {
+    "id": "meme-co-wa-1",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj office ka scene cancel samjho 😅 12 saal baad Vice City se urgent bulawa aaya hai 🌴\nJira board update kar diya hai, kal fresh ho ke double kaam nikaal dunga 🎮🙏"
+  },
+  {
+    "id": "meme-co-wa-2",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hi {name}, aaj Work From Vice City kar sakta hoon kya? 😅\n150GB ka download subah 6 baje khatam hua hai 🎮 Urgent ho toh ping kar dena, warna kal standup pe milte hain 🙏"
+  },
+  {
+    "id": "meme-co-wa-3",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj thoda sudden launch-day fever ho gaya hai 🎮\nDoctor ne 24 ghante ka console rest bola hai 😅 Pending tickets kal subah sabse pehle clear kar dunga 🙏"
+  },
+  {
+    "id": "meme-co-tg-1",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj **Out of Office: Leonida Edition** 🌴\n**12 saal ka backlog** clear karna hai aaj 🎮 Baaki **sprint deliverables** kal subah live milenge, tension mat lena 😅"
+  },
+  {
+    "id": "meme-co-tg-2",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hey {name}, aaj **console bandwidth** 100% full hai aur **office mood** 0% 😅\nUrgent prod issue ho toh call karna, warna **kal subah full energy** ke saath wapas milunga 🎮🙏"
+  },
+  {
+    "id": "meme-co-tg-3",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, **GTA 6 launch day** pe office aana technically unfair hai 🌴\nAaj ki **sick leave** approve samjho, kal **double productivity** meri taraf se pakka 🎮"
+  },
+  {
+    "id": "meme-co-em-1",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "OOO Today: Urgent Trip to Vice City",
+    "body": "Hi {name},\n\nI will be taking an unplanned mental-health day today because a 12-year pending deliverable finally dropped at midnight 🎮 All my sprint tasks are updated so the team stays unblocked.\n\nMain kal subah fresh ho ke office join kar lunga. Thanks for understanding 🌴\n\nBest regards"
+  },
+  {
+    "id": "meme-co-em-2",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Leave Request: 150GB Emergency Bandwidth Issue",
+    "body": "Hello {name},\n\nAaj ghar par ek massive 150GB system update chal raha hai jisko personally monitor karna zaroori hai 😅 Isliye aaj main desk se thoda door rahunga.\n\nCritical kuch ho toh ping kar dena, baaki kal ke standup mein time pe milte hain 🙏\n\nRegards"
+  },
+  {
+    "id": "meme-co-em-3",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Sick Leave Today: Severe Launch Day Hype",
+    "body": "Dear {name},\n\nSubah se mujhe ek hi symptom feel ho raha hai, bina GTA 6 khele kaam pe focus zero hai 🎮 Handover notes team ko share kar diye hain.\n\nKal se wapas corporate mode 100% on kar dunga. Shukriya for understanding 😅\n\nWarm regards"
+  },
+  {
+    "id": "meme-jh-wa-1",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj ki shift mushkil hai yaar 😅 12 saal baad GTA 6 aaya hai aur aaj Vice City mein duty lag gayi hai 🎮\nWeekend pe extra shift cover kar dunga, aaj maaf kar do 🙏"
+  },
+  {
+    "id": "meme-jh-wa-2",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hello {name}, aaj subah se controller se haath chipak gaye hain 😅\nAaj ka off de do please, kal time se 15 minute pehle shift pe pohanch jaunga 🌴🙏"
+  },
+  {
+    "id": "meme-jh-wa-3",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj launch day emergency hai, 150GB download ke baad aankhein aur dil dono screen par hain 🎮\nKal se regular duty bina kisi bahane ke, pakka promise 😅"
+  },
+  {
+    "id": "meme-jh-tg-1",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj ki **shift postpone** karni padegi 😅\n**Vice City launch day** ek baar aata hai decade mein 🌴 Kal **extra ghante** laga kar cover kar dunga 🎮🙏"
+  },
+  {
+    "id": "meme-jh-tg-2",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hi {name}, aaj **urgent gaming duty** aa gayi hai ghar par 🎮\nShort notice ke liye **sorry yaar** 😅 Kal subah **dot time par** shift report karunga 🙏"
+  },
+  {
+    "id": "meme-jh-tg-3",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, subah se **GTA 6 fever** thoda zyada hai 🌴\nAaj **ek din ka off** de do, is hafte ki **koi bhi extra shift** main utha lunga 😅"
+  },
+  {
+    "id": "meme-jh-em-1",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Shift Off Request: Historic Launch Day",
+    "body": "Dear {name},\n\nMain aaj ki shift attend nahi kar paunga kyunki 12 saal ke intezaar ke baad aaj GTA 6 launch hua hai 🎮 Short notice ke liye genuinely sorry yaar 😅\n\nAap jab bolo is week ek extra shift cover kar dunga. Kal time pe duty join karunga 🙏\n\nRegards"
+  },
+  {
+    "id": "meme-jh-em-2",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "One Day Leave: Urgent Vice City Shift",
+    "body": "Hello {name},\n\nAaj ghar par ek bahot zaroori Vice City mission pending hai jisko aaj hi complete karna hai 🌴 Isliye aaj duty pe aana possible nahi ho paayega.\n\nKal subah full energy ke saath shift par milunga. Shukriya for understanding 😅\n\nBest regards"
+  },
+  {
+    "id": "meme-jh-em-3",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Leave Notice for Today: Launch Day Fever",
+    "body": "Respected {name},\n\nAaj subah se launch-day fever aur 150GB download ki wajah se aaj ki shift miss karni pad rahi hai 🎮 Kal se regular timing par bina kisi delay ke duty report karunga.\n\nThank you for supporting a gamer in need 🙏\n\nSincerely"
+  },
+  {
+    "id": "st-wa-11",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj subah se halka chakkar aur weakness feel ho rahi hai 🤒\nLagta hai paani kam piya kal, doctor ne rest bola hai.\nKal fresh ho ke notes copy kar lunga 🙏"
+  },
+  {
+    "id": "st-wa-12",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Good morning {name}, aaj ghar pe bijli aur paani ka technician aaya hua hai 😅\nKoi aur ghar pe hai nahi handle karne ke liye.\nAaj ki class skip ho rahi hai, kal pakka time pe aaunga 🙏"
+  },
+  {
+    "id": "st-tg-11",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj subah se **halka chakkar** aur body ache feel ho raha hai 🤒\nAaj ghar pe rest kar ke **recovery** zaroori lag rahi hai.\nKal subah class mein **time pe** milunga 🙏"
+  },
+  {
+    "id": "st-tg-12",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hello {name}, ghar pe **urgent repair work** chal raha hai aur koi aur nahi hai 😅\nAaj ka lecture dost se **notes le kar** cover kar lunga.\nKal regular attendance pakki hai 🙏"
+  },
+  {
+    "id": "st-em-11",
+    "persona": "student",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Sick Leave Today: Mild Fever and Rest",
+    "body": "Dear {name},\n\nAaj subah se mujhe halka fever aur weakness feel ho rahi hai 🤒 Is wajah se aaj class attend karna mushkil hoga.\n\nMain aaj ke notes classmate se lekar cover kar lunga aur kal regular classes join karunga 🙏\n\nRegards"
+  },
+  {
+    "id": "st-em-12",
+    "persona": "student",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "One Day Leave: Urgent Home Matter",
+    "body": "Hello {name},\n\nGhar par aaj subah ek urgent family kaam aa gaya hai jisko handle karna zaroori hai 😅 Isliye aaj college nahi aa paunga.\n\nKal saare pending topics cover kar ke time par class mein hazir ho jaunga 🙏\n\nThanks"
+  },
+  {
+    "id": "co-wa-11",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hi {name}, aaj subah se aankhon mein kaafi strain aur halka migraine hai 🤒\nScreen pe focus bilkul nahi ban raha aaj.\nUrgent kuch ho toh ping kar dena, warna kal subah sab clear kar dunga 🙏"
+  },
+  {
+    "id": "co-wa-12",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Morning {name}, aaj ghar pe internet aur inverter dono ka issue chal raha hai 😅\nTechnician shaam tak aayega, aaj kaam karna mushkil ho raha.\nLeave mark kar lena aaj ki, kal subah sharp login karunga 🙏"
+  },
+  {
+    "id": "co-tg-11",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hi {name}, aaj subah se **halka migraine** aur eye strain ho raha hai 🤒\nLaptop screen dekhna mushkil hai, aaj **sick leave** le raha hoon.\nTeam ko handover de diya hai, kal **full energy** se join karunga 🙏"
+  },
+  {
+    "id": "co-tg-12",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Morning {name}, ghar pe **urgent personal kaam** aur family errand aa gaya hai 😅\nAaj ka din off lena pad raha hai, **blocker** koi nahi chhoda.\nKal subah standup pe **time se** milte hain 🙏"
+  },
+  {
+    "id": "co-em-11",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Sick Leave Today: Migraine and Rest",
+    "body": "Hi {name},\n\nAaj subah se mujhe kaafi tez headache aur eye strain feel ho raha hai 🤒 Is wajah se aaj screen par kaam karna mushkil hoga.\n\nMaine current tasks ki status update team ko share kar di hai. Kal subah fresh ho ke join karunga 🙏\n\nBest regards"
+  },
+  {
+    "id": "co-em-12",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Leave Request Today: Personal Errand",
+    "body": "Hi {name},\n\nAaj subah ghar par ek urgent personal kaam aa gaya hai jiske liye mujhe off lena pad raha hai 😅\n\nKoi urgent dependency pending nahi hai aur kal subah time par login kar ke baaki kaam wrap up kar dunga 🙏\n\nThanks"
+  },
+  {
+    "id": "jh-wa-11",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "Salam {name}, aaj subah se kamar mein kaafi dard aur thakan lag rahi hai 🤒\nAaj duty pe khada hona mushkil ho jayega.\nAaj ki chhutti de dein, kal subah time pe hazir ho jaunga 🙏"
+  },
+  {
+    "id": "jh-wa-12",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "casual",
+    "subject": null,
+    "body": "{name}, aaj subah bike puncture ho gayi aur ghar pe bhi ek zaroori kaam nikal aaya 😅\nAaj shift pe aana possible nahi ho pa raha.\nKal time pe pahunch kar pending kaam poora kar dunga 🙏"
+  },
+  {
+    "id": "jh-tg-11",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Salam {name}, aaj subah se **halka bukhar** aur body pain hai 🤒\nDoctor ne aaj **complete rest** bola hai warna tabiyat bigad jayegi.\nKal subah **duty pe** bilkul time se aa jaunga 🙏"
+  },
+  {
+    "id": "jh-tg-12",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "casual",
+    "subject": null,
+    "body": "Hello {name}, ghar pe **zaroori family kaam** ki wajah se aaj nikalna mushkil hai 😅\nAaj ki **ek din ki chhutti** chahiye thi.\nKal subah shift pe **full energy** ke saath milunga 🙏"
+  },
+  {
+    "id": "jh-em-11",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "One Day Sick Leave Request",
+    "body": "Hello {name},\n\nAaj subah se meri tabiyat theek nahi lag rahi aur halka body ache hai 🤒 Isliye aaj duty par aana mushkil hoga.\n\nKal subah aaram kar ke time par shift join kar lunga. Shukriya for understanding 🙏\n\nRegards"
+  },
+  {
+    "id": "jh-em-12",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "casual",
+    "subject": "Leave Application: Urgent Personal Work",
+    "body": "Dear {name},\n\nGhar par aaj ek zaroori personal kaam aa gaya hai jiski wajah se aaj duty attend nahi kar paunga 😅\n\nKal subah regular timing par hazir ho kar saara pending kaam complete kar dunga 🙏\n\nBest regards"
+  },
+  {
+    "id": "st-wa-pro-4",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am feeling unwell with a mild fever since morning and will not be able to attend class today.\nI will collect today's notes from a classmate and return tomorrow."
+  },
+  {
+    "id": "st-wa-pro-5",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, due to a sudden family commitment at home, I need to take leave from classes today.\nI will make sure to cover all missed lectures before tomorrow's session."
+  },
+  {
+    "id": "st-wa-pro-6",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Respected {name}, I have a doctor's appointment scheduled this morning and will miss today's lecture.\nI will review the syllabus covered today and attend regularly from tomorrow."
+  },
+  {
+    "id": "st-wa-pro-7",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am experiencing a severe headache today and have been advised to rest.\nKindly excuse my absence for today; I will submit pending work tomorrow."
+  },
+  {
+    "id": "st-wa-pro-8",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, an urgent personal matter requires my presence at home today, so I will be unable to attend college.\nI will catch up on class notes and be present tomorrow."
+  },
+  {
+    "id": "st-wa-pro-9",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Respected {name}, I am down with seasonal flu symptoms and prefer to rest today to recover quickly.\nThank you for understanding; I will resume classes tomorrow."
+  },
+  {
+    "id": "st-wa-pro-10",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am facing a minor stomach upset today and will not be able to make it to campus.\nI will stay updated with today's topics and attend tomorrow on time."
+  },
+  {
+    "id": "st-tg-pro-4",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am unwell with **mild fever** today and will not be able to attend class.\nI will review **today's notes** and resume regular attendance tomorrow."
+  },
+  {
+    "id": "st-tg-pro-5",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, I have an **urgent family matter** to attend to today and must miss college.\nI will cover **all missed topics** before tomorrow's lecture."
+  },
+  {
+    "id": "st-tg-pro-6",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Respected {name}, due to a **scheduled medical visit** this morning, I will be absent from today's session.\nI will catch up on **classwork** and attend regularly tomorrow."
+  },
+  {
+    "id": "st-tg-pro-7",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am dealing with a **strong migraine** and cannot focus on lectures today.\nKindly grant me **one day of leave**; I will return tomorrow."
+  },
+  {
+    "id": "st-tg-pro-8",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, I am experiencing **throat soreness and fatigue** since last night.\nI will rest today and rejoin **morning classes** tomorrow."
+  },
+  {
+    "id": "st-tg-pro-9",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Respected {name}, an **unavoidable personal commitment** requires me to stay home today.\nI will stay current with **assignments** and be present tomorrow."
+  },
+  {
+    "id": "st-tg-pro-10",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am not feeling well enough to travel to campus today due to **stomach discomfort**.\nI will collect **today's lecture summary** and attend tomorrow."
+  },
+  {
+    "id": "st-em-pro-4",
+    "persona": "student",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Leave Application for Today: Mild Fever",
+    "body": "Respected {name},\n\nI am writing to inform you that I have developed a mild fever since morning and will be unable to attend classes today.\n\nI will obtain today's lecture notes from my classmates and ensure my coursework remains up to date.\n\nSincerely"
+  },
+  {
+    "id": "st-em-pro-5",
+    "persona": "student",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Request for One Day Leave: Family Matter",
+    "body": "Dear {name},\n\nDue to an urgent family commitment at home, I will not be able to attend campus today. I kindly request you to grant me leave for the day.\n\nI will cover the syllabus taught today and attend all classes regularly from tomorrow.\n\nKind regards"
+  },
+  {
+    "id": "st-em-pro-6",
+    "persona": "student",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Absence Notice: Medical Appointment",
+    "body": "Respected {name},\n\nI have a scheduled medical checkup this morning, due to which I will miss today's lectures.\n\nI will review all covered material and submit any pending assignments on my return tomorrow.\n\nRegards"
+  },
+  {
+    "id": "st-em-pro-7",
+    "persona": "student",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Sick Leave Notification for Today",
+    "body": "Dear {name},\n\nI am experiencing a severe headache and fatigue today and have been advised to take rest. Therefore, I will not be able to attend today's sessions.\n\nThank you for your understanding. I expect to resume classes tomorrow.\n\nBest regards"
+  },
+  {
+    "id": "st-em-pro-8",
+    "persona": "student",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "One Day Absence: Personal Commitment",
+    "body": "Hello {name},\n\nI wanted to let you know that an unavoidable personal matter requires my attention today, so I will be unable to attend college.\n\nI will catch up on today's notes and be fully prepared for tomorrow's class.\n\nSincerely"
+  },
+  {
+    "id": "st-em-pro-9",
+    "persona": "student",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Leave Request: Seasonal Cold and Rest",
+    "body": "Respected {name},\n\nI have come down with a seasonal cold and sore throat and would like to take the day off to recover properly.\n\nI will coordinate with classmates for today's readings and return tomorrow.\n\nThank you"
+  },
+  {
+    "id": "st-em-pro-10",
+    "persona": "student",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Medical Leave for Today",
+    "body": "Dear {name},\n\nI am experiencing stomach discomfort since early morning and am unable to travel to campus today.\n\nI will make sure all missed classwork is completed promptly and resume attendance tomorrow.\n\nWarm regards"
+  },
+  {
+    "id": "co-wa-pro-4",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hi {name}, I am feeling unwell with a mild fever today and need to take sick leave.\nI have updated my task status on the board and will resume work tomorrow."
+  },
+  {
+    "id": "co-wa-pro-5",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, an urgent personal matter came up at home today, so I will need to take the day off.\nNo urgent deliverables are blocked, and I will catch up first thing tomorrow."
+  },
+  {
+    "id": "co-wa-pro-6",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hi {name}, I am experiencing a strong migraine and eye strain this morning and will not be able to log in today.\nPlease let me know if anything critical needs attention; otherwise I will be back tomorrow."
+  },
+  {
+    "id": "co-wa-pro-7",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, I have a scheduled doctor's visit today and will be taking a sick day.\nI have briefed the team on ongoing items so work continues smoothly."
+  },
+  {
+    "id": "co-wa-pro-8",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am down with seasonal flu symptoms and need to rest today.\nI will monitor messages briefly for anything urgent and return at full capacity tomorrow."
+  },
+  {
+    "id": "co-wa-pro-9",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hi {name}, due to an unexpected family responsibility today, I will need to take a personal leave day.\nAll priority tasks for the week remain on track for tomorrow."
+  },
+  {
+    "id": "co-wa-pro-10",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, I am dealing with stomach discomfort today and will be taking sick leave.\nThank you for understanding; I will catch up on pending threads tomorrow morning."
+  },
+  {
+    "id": "co-tg-pro-4",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hi {name}, I am taking **sick leave today** due to a mild fever.\nAll active sprint items have been **updated for the team**, and I will return tomorrow."
+  },
+  {
+    "id": "co-tg-pro-5",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I need to take **personal leave today** to handle an urgent matter at home.\nThere are **no open blockers**, and I will be back online tomorrow morning."
+  },
+  {
+    "id": "co-tg-pro-6",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, I am experiencing a **severe migraine** and need to stay away from screens today.\nI will catch up on **all pending tasks** as soon as I return tomorrow."
+  },
+  {
+    "id": "co-tg-pro-7",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hi {name}, I have a **medical appointment** today and will be offline for the day.\nI have shared **handover notes** with the team to keep things moving."
+  },
+  {
+    "id": "co-tg-pro-8",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am down with **flu symptoms** and will rest today to recover.\nPlease message me if anything is **time-critical**; otherwise I will log in tomorrow."
+  },
+  {
+    "id": "co-tg-pro-9",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, an **unavoidable family commitment** requires my attention today.\nI am taking **one day of leave** and will resume regular hours tomorrow."
+  },
+  {
+    "id": "co-tg-pro-10",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hi {name}, I am unwell with **stomach discomfort** since morning and need to take today off.\nAll priority tickets are **documented**, and I will pick up tomorrow."
+  },
+  {
+    "id": "co-em-pro-4",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Sick Leave Notice for Today",
+    "body": "Hi {name},\n\nI am feeling unwell with a mild fever this morning and will need to take a sick day to rest and recover.\n\nI have updated my current tasks so the team has full visibility, and I plan to resume work tomorrow.\n\nBest regards"
+  },
+  {
+    "id": "co-em-pro-5",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Personal Leave Request for Today",
+    "body": "Hi {name},\n\nAn urgent personal matter has come up at home that requires my attention today, so I will not be able to log in.\n\nNo immediate deadlines are impacted, and I will catch up on all pending items first thing tomorrow.\n\nThanks for understanding"
+  },
+  {
+    "id": "co-em-pro-6",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Out of Office Today: Migraine",
+    "body": "Hello {name},\n\nI woke up with a strong migraine and eye strain today and will not be able to work on screen.\n\nI have informed the team regarding ongoing deliverables and will follow up on everything tomorrow morning.\n\nWarm regards"
+  },
+  {
+    "id": "co-em-pro-7",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Leave Notification: Medical Appointment",
+    "body": "Hi {name},\n\nI have a scheduled medical appointment today and will be taking the day off.\n\nHandover notes have been shared with the team so daily operations continue without disruption. I will be back online tomorrow.\n\nBest regards"
+  },
+  {
+    "id": "co-em-pro-8",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Taking a Sick Day Today",
+    "body": "Dear {name},\n\nI am experiencing seasonal flu symptoms and fatigue today and would like to take sick leave to recover.\n\nI will check messages occasionally for any critical escalations and expect to return tomorrow.\n\nKind regards"
+  },
+  {
+    "id": "co-em-pro-9",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "One Day Leave: Family Commitment",
+    "body": "Hi {name},\n\nDue to an unexpected family responsibility, I will be away from work today.\n\nAll my active priorities remain on schedule, and I will resume full availability tomorrow morning.\n\nRegards"
+  },
+  {
+    "id": "co-em-pro-10",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Sick Leave Today: Unwell",
+    "body": "Hello {name},\n\nI am dealing with stomach discomfort since early morning and will not be able to attend work today.\n\nThank you for understanding. I will clear any pending messages and tasks as soon as I return tomorrow.\n\nBest regards"
+  },
+  {
+    "id": "jh-wa-pro-4",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I have a mild fever today and will not be able to report for duty.\nI will rest today and attend my shift on time tomorrow."
+  },
+  {
+    "id": "jh-wa-pro-5",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, due to an urgent family matter at home, I kindly request one day of leave today.\nI will return to duty tomorrow morning as scheduled."
+  },
+  {
+    "id": "jh-wa-pro-6",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Respected {name}, I am experiencing severe back and body ache since morning and cannot attend my shift today.\nThank you for understanding; I will resume work tomorrow."
+  },
+  {
+    "id": "jh-wa-pro-7",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I need to visit the clinic for a medical checkup today and will be unable to come in.\nI will ensure all pending responsibilities are covered tomorrow."
+  },
+  {
+    "id": "jh-wa-pro-8",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, I am unwell with a cold and headache today and have been advised to take rest.\nKindly approve my leave for today; I will report on time tomorrow."
+  },
+  {
+    "id": "jh-wa-pro-9",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Respected {name}, an unavoidable personal task requires my presence at home today.\nPlease grant me leave for the day; I will attend duty regularly tomorrow."
+  },
+  {
+    "id": "jh-wa-pro-10",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am having stomach discomfort since early morning and cannot make it to work today.\nI will recover today and report promptly for tomorrow's shift."
+  },
+  {
+    "id": "jh-tg-pro-4",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am unwell with **mild fever** today and cannot report for duty.\nI will rest today and **attend my shift** on time tomorrow."
+  },
+  {
+    "id": "jh-tg-pro-5",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, an **urgent family matter** has come up at home, so I need **one day of leave** today.\nI will report back to duty promptly tomorrow morning."
+  },
+  {
+    "id": "jh-tg-pro-6",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Respected {name}, I am dealing with **strong body ache** today and am unable to work my shift.\nThank you for understanding; I will resume **full duty** tomorrow."
+  },
+  {
+    "id": "jh-tg-pro-7",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I have a **medical visit** scheduled today and kindly request leave for the day.\nI will complete **all pending duties** when I return tomorrow."
+  },
+  {
+    "id": "jh-tg-pro-8",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Hello {name}, I am down with **flu and headache** since last night and need rest today.\nI expect to be fit for **tomorrow's shift** on time."
+  },
+  {
+    "id": "jh-tg-pro-9",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Respected {name}, due to an **unavoidable personal commitment**, I will be unable to attend work today.\nKindly grant me **leave for today**; I will return tomorrow."
+  },
+  {
+    "id": "jh-tg-pro-10",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "professional",
+    "subject": null,
+    "body": "Good morning {name}, I am experiencing **stomach upset** this morning and cannot come to duty.\nI will rest today and report on schedule **tomorrow morning**."
+  },
+  {
+    "id": "jh-em-pro-4",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Sick Leave Application for Today",
+    "body": "Respected {name},\n\nI am writing to inform you that I have a mild fever since morning and will not be able to report for duty today.\n\nI will take rest today and resume my regular shift on time tomorrow.\n\nSincerely"
+  },
+  {
+    "id": "jh-em-pro-5",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Request for One Day Leave: Family Matter",
+    "body": "Dear {name},\n\nDue to an urgent family responsibility at home, I will not be able to attend work today. Kindly approve my leave for the day.\n\nI will return to duty tomorrow morning and clear any pending work.\n\nRegards"
+  },
+  {
+    "id": "jh-em-pro-6",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Leave Notice: Medical Checkup",
+    "body": "Respected {name},\n\nI have a scheduled visit to the clinic today for a routine medical checkup and will be unable to attend my shift.\n\nThank you for your understanding. I will report for duty on time tomorrow.\n\nKind regards"
+  },
+  {
+    "id": "jh-em-pro-7",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "One Day Sick Leave: Body Ache and Rest",
+    "body": "Dear {name},\n\nI am experiencing significant body ache and fatigue since early morning and have been advised to take rest today.\n\nI will ensure all pending duties are handled smoothly upon my return tomorrow.\n\nBest regards"
+  },
+  {
+    "id": "jh-em-pro-8",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Absence Notification: Seasonal Cold",
+    "body": "Hello {name},\n\nI have come down with a seasonal cold and headache and will need to take the day off to recover.\n\nI appreciate your understanding and plan to resume my shift tomorrow morning.\n\nSincerely"
+  },
+  {
+    "id": "jh-em-pro-9",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Personal Leave Application for Today",
+    "body": "Respected {name},\n\nAn unavoidable personal matter requires my presence at home today, so I kindly request one day of leave.\n\nI will report promptly for tomorrow's shift and stay up to date with all work.\n\nThank you"
+  },
+  {
+    "id": "jh-em-pro-10",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "professional",
+    "subject": "Medical Leave for Today: Unwell",
+    "body": "Dear {name},\n\nI am experiencing stomach discomfort since morning and am unable to travel to work today.\n\nI will recover today and attend duty regularly from tomorrow.\n\nWarm regards"
+  },
+  {
+    "id": "st-wa-meme-4",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj class nahi aa paunga 😅 150GB ka launch day update chal raha hai aur WiFi ko akele nahi chhod sakta 🎮\nKal full notes aur fresh dimaag ke saath hazir ho jaunga 🙏"
+  },
+  {
+    "id": "st-wa-meme-5",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Good morning {name}, aaj subah se Leonida ki garmi aur controller cramp feel ho raha hai 🌴🎮\nAaj ka lecture skip karke kal double focus se padhai karunga, promise 🙏"
+  },
+  {
+    "id": "st-wa-meme-6",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, 12 saal se jis din ka intezar tha woh aaj aa gaya hai 😅\nAaj mera dimaag classroom mein nahi, seedha Vice City beach pe hai 🌴\nKal regular student ban ke wapas aa jaunga 🙏"
+  },
+  {
+    "id": "st-wa-meme-7",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hello {name}, aaj PS5 ka fan itna tez chal raha hai ki ghar chhodna unsafe lag raha hai 😅🎮\nAaj ki attendance sambhal lena, kal notes copy karke milunga 🙏"
+  },
+  {
+    "id": "st-wa-meme-8",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj subah alarm baja par dil ne bola \"Vice City pehle, college kal\" 🌴😅\nAaj ki chhutti maaf kar dein, kal first bench pe dikhunga 🙏"
+  },
+  {
+    "id": "st-wa-meme-9",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hi {name}, aaj mujhe rare \"Launch Day Fever\" ho gaya hai 🤒🎮\nDoctor ne bola kam se kam 6 ghante Vice City sunset dekhna zaroori hai 🌴\nKal bilkul fit ho ke class aaunga!"
+  },
+  {
+    "id": "st-wa-meme-10",
+    "persona": "student",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj college bag uthaya par haath mein galti se controller aa gaya 😅🎮\nAaj ka din GTA 6 ke naam, kal se wapas topper mode on 🙏"
+  },
+  {
+    "id": "st-tg-meme-4",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, ghar pe **150GB ka historic update** chal raha hai aur router ko moral support chahiye 😅🎮\nAaj ki class miss ho rahi hai, kal **saare notes** cover kar lunga 🙏"
+  },
+  {
+    "id": "st-tg-meme-5",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Good morning {name}, aaj mujhe **Leonida Launch Fever** pakad gaya hai 🌴🎮\nAaj rest zaroori hai, kal **first lecture** mein full attendance pakki 🙏"
+  },
+  {
+    "id": "st-tg-meme-6",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, **12 saal ka intezar** aaj khatam hua hai, class mein concentrate karna impossible hai 😅\nAaj **Vice City tour** complete karke kal seedha campus aaunga 🌴"
+  },
+  {
+    "id": "st-tg-meme-7",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hello {name}, mera **PS5 subah se garam** ho raha hai, aaj ghar pe rukna mandatory hai 🎮😅\nAaj ka topic dost se **samajh lunga**, kal time pe milte hain 🙏"
+  },
+  {
+    "id": "st-tg-meme-8",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj **controller aur books** ke beech tough competition tha aur controller jeet gaya 😅🎮\nKal se **full serious mode** mein class join karunga 🙏"
+  },
+  {
+    "id": "st-tg-meme-9",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hi {name}, aaj **Vice City mein urgent mission** khul gaya hai, attendance manage kar lena 🌴😅\nKal **assignment ke saath** sharp time pe aa jaunga 🙏"
+  },
+  {
+    "id": "st-tg-meme-10",
+    "persona": "student",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, **launch day baar baar nahi aata**, isliye aaj ki chhutti le raha hoon 🎮🌴\nKal subah **fresh dimaag** ke saath regular classes mein milunga 🙏"
+  },
+  {
+    "id": "st-em-meme-4",
+    "persona": "student",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Urgent Leave Today: 150GB Launch Day Update",
+    "body": "Dear {name},\n\nAaj ghar par ek historic 150GB GTA 6 download chal raha hai jisko monitor karna bahut zaroori hai 🎮 Is wajah se aaj class attend karna mushkil hoga.\n\nKal saare notes copy kar ke regular attendance resume karunga 😅\n\nRegards"
+  },
+  {
+    "id": "st-em-meme-5",
+    "persona": "student",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "One Day Absence: Emergency Vice City Trip",
+    "body": "Hello {name},\n\n12 saal ke lambe intezar ke baad aaj Vice City se urgent bulawa aaya hai 🌴 Aaj college mein focus karna lagbhag namumkin lag raha hai.\n\nKal fresh ho ke saare pending topics cover kar lunga. Shukriya 🙏\n\nBest regards"
+  },
+  {
+    "id": "st-em-meme-6",
+    "persona": "student",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Sick Leave Today: Severe Launch Day Hype",
+    "body": "Respected {name},\n\nSubah se mujhe extreme GTA 6 launch day hype aur controller cramp feel ho raha hai 😅🎮 Aaj ka lecture attend karne ki halat bilkul nahi hai.\n\nKal bilkul normal student ban kar campus mein hazir ho jaunga 🙏\n\nSincerely"
+  },
+  {
+    "id": "st-em-meme-7",
+    "persona": "student",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Leave Request: Leonida Field Research",
+    "body": "Dear {name},\n\nAaj mujhe Leonida aur Vice City ke coastal geography par urgent practical research karni hai 🌴🎮 Isliye aaj campus nahi aa paunga.\n\nKal se wapas regular syllabus par 100% dhyan dunga 😅\n\nThanks"
+  },
+  {
+    "id": "st-em-meme-8",
+    "persona": "student",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Absence Notice: Console Overheating Duty",
+    "body": "Hello {name},\n\nGhar par console aur WiFi router dono high alert par hain kyunki aaj GTA 6 launch hua hai 🎮 Aaj ghar chhodna thoda risky lag raha hai.\n\nKal classmate se notes lekar sab cover kar lunga 🙏\n\nBest regards"
+  },
+  {
+    "id": "st-em-meme-9",
+    "persona": "student",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "One Day Off: 12-Year Pending Appointment",
+    "body": "Dear {name},\n\nAaj meri ek 12 saal purani pending appointment Vice City mein schedule ho gayi hai 🌴😅 Isliye aaj ki class skip karni pad rahi hai.\n\nKal time par class mein milunga aur assignment submit kar dunga 🙏\n\nRegards"
+  },
+  {
+    "id": "st-em-meme-10",
+    "persona": "student",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Leave Application: Launch Day Mental Health Break",
+    "body": "Hello {name},\n\nAaj GTA 6 launch day ki khushi mein kitaab kholne ka bilkul mann nahi ban raha 🎮 Aaj ek din ka break le kar kal double energy se padhai karunga.\n\nShukriya for understanding 😅\n\nWarm regards"
+  },
+  {
+    "id": "co-wa-meme-4",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hi {name}, aaj standup skip karna padega 😅 150GB GTA 6 update download ho raha hai aur WiFi ko meri zaroorat hai 🎮\nJira tickets update kar diye hain, kal 10x developer ban ke aata hoon 🙏"
+  },
+  {
+    "id": "co-wa-meme-5",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Morning {name}, aaj laptop band aur Vice City on hai 🌴🎮\n12 saal baad aisa launch day aata hai, aaj ki leave approve kar dein 😅\nKal subah sab PRs aur emails clear kar dunga 🙏"
+  },
+  {
+    "id": "co-wa-meme-6",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj office screen dekhne pe sirf Leonida ka sunset dikh raha hai 🌴😅\nProductivity zero hai aaj, sick leave mark kar lena.\nKal full corporate mode on kar ke sab deliver kar dunga 🙏"
+  },
+  {
+    "id": "co-wa-meme-7",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hi {name}, aaj doctor ne strictly \"No Slack, Only Controller\" prescribe kiya hai 🎮😅\nTeam ko handover de diya hai, koi blocker nahi hai.\nKal subah sharp login karunga 🙏"
+  },
+  {
+    "id": "co-wa-meme-8",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Morning {name}, aaj urgent Vice City sprint planning aa gayi hai 🌴🎮\nOffice sprint ko kal double speed se cover kar dunga, promise 😅\nAaj ka din off rakhna please 🙏"
+  },
+  {
+    "id": "co-wa-meme-9",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, kal raat 12 baje se GTA 6 launch ka intezar kar raha tha, aaj aankhein aur dimaag dono Vice City mein hain 😅🌴\nAaj leave le raha hoon, kal fresh mind se milte hain 🙏"
+  },
+  {
+    "id": "co-wa-meme-10",
+    "persona": "corporate",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hi {name}, aaj \"Launch Day Burnout\" ho gaya hai, bina Vice City ghoome code compile nahi ho raha 🎮😅\nAaj ki chhutti de dein, kal zero bugs guarantee 🙏"
+  },
+  {
+    "id": "co-tg-meme-4",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hi {name}, aaj **150GB GTA 6 update** monitor karna hai, office login mushkil hai 😅🎮\nSaare **Jira tasks** clean chhod diye hain, kal subah sharp milunga 🙏"
+  },
+  {
+    "id": "co-tg-meme-5",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Morning {name}, aaj **laptop band** aur **Vice City open** hai 🌴🎮\n12 saal ka intezar tha, aaj ki chhutti banti hai. Kal **double output** pakka 🙏"
+  },
+  {
+    "id": "co-tg-meme-6",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj mujhe severe **Leonida Sunset Fever** ho gaya hai 🌴😅\nAaj **Slack se door** rehna zaroori hai, kal subah full corporate mode on 🙏"
+  },
+  {
+    "id": "co-tg-meme-7",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hi {name}, aaj **controller cramp** aur **launch day hype** dono peak pe hain 🎮😅\nTeam ko **handover** de diya hai, kal subah sab clear kar dunga 🙏"
+  },
+  {
+    "id": "co-tg-meme-8",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Morning {name}, aaj **Vice City mein urgent client visit** aa gayi hai 🌴😅\nOffice deliverables pe koi impact nahi aayega, **kal subah** sab wrap up kar dunga 🙏"
+  },
+  {
+    "id": "co-tg-meme-9",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, **12 saal purana ticket** aaj live hua hai, pehle usko test karna hai 🎮😅\nAaj ki leave approve kar dein, kal **standup pe time se** milte hain 🙏"
+  },
+  {
+    "id": "co-tg-meme-10",
+    "persona": "corporate",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hi {name}, aaj **WFV (Work From Vice City)** le raha hoon 🌴🎮\nUrgent kuch ho toh ping kar dena, warna kal **100% active** milunga 🙏"
+  },
+  {
+    "id": "co-em-meme-4",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Out of Office Today: 150GB Launch Day Update",
+    "body": "Hi {name},\n\nAaj ghar par ek critical 150GB GTA 6 update download chal raha hai jisme full supervision chahiye 🎮 Isliye aaj login karna mushkil hoga.\n\nSaare sprint tasks update kar diye hain aur kal subah double speed se kaam cover kar dunga 😅\n\nBest regards"
+  },
+  {
+    "id": "co-em-meme-5",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Leave Request: Urgent Vice City Deployment",
+    "body": "Hi {name},\n\n12 saal ke intezar ke baad aaj Vice City ka sabse bada launch hua hai 🌴 Aaj meetings mein focus karna lagbhag impossible hai.\n\nKoi urgent blocker pending nahi hai. Kal subah sharp login kar ke sab clear kar dunga 🙏\n\nThanks"
+  },
+  {
+    "id": "co-em-meme-6",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Sick Leave Today: Acute Controller Fever",
+    "body": "Dear {name},\n\nSubah se mujhe ek hi symptom feel ho raha hai, sirf controller uthane ki himmat hai aur laptop kholne ka dil nahi kar raha 😅🎮\n\nHandover notes team ke saath share kar diye hain. Kal 100% corporate mode on kar dunga 🙏\n\nWarm regards"
+  },
+  {
+    "id": "co-em-meme-7",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "One Day Off: Work From Leonida",
+    "body": "Hello {name},\n\nAaj main mental health recharge ke liye ek din ka \"Work From Vice City\" break le raha hoon 🌴🎮\n\nTeam ko saari updates de di hain aur kal subah fresh dimaag ke saath sab deliverables time par finish kar dunga 😅\n\nRegards"
+  },
+  {
+    "id": "co-em-meme-8",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Leave Notice: 12-Year Pending Milestone",
+    "body": "Hi {name},\n\nAaj ek 12 saal purana personal milestone (GTA 6 launch) celebrate karna zaroori hai 🎮 Isliye aaj ka din off le raha hoon.\n\nKoi priority ticket blocked nahi hai aur kal regular hours mein wapas join karunga 🙏\n\nBest regards"
+  },
+  {
+    "id": "co-em-meme-9",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Urgent Personal Leave: Console Maintenance",
+    "body": "Hi {name},\n\nGhar par subah se console aur router dono full load par hain, isliye aaj office join karna mushkil ho raha hai 😅🎮\n\nKal subah sab pending emails aur PRs pehle clear kar dunga. Shukriya for understanding 🙏\n\nThanks"
+  },
+  {
+    "id": "co-em-meme-10",
+    "persona": "corporate",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Taking Today Off: Historic Launch Day",
+    "body": "Hello {name},\n\nAisa launch day decade mein ek baar aata hai 🌴 Aaj agar office aa bhi gaya toh dimaag Vice City mein hi rahega.\n\nAaj ki leave approve kar dein, kal full productivity ke saath milte hain 😅\n\nWarm regards"
+  },
+  {
+    "id": "jh-wa-meme-4",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Salam {name}, aaj duty pe nahi aa paunga 😅 150GB ka GTA 6 update chal raha hai aur ghar pe WiFi sambhalna pad raha hai 🎮\nKal subah time pe shift join kar lunga, promise 🙏"
+  },
+  {
+    "id": "jh-wa-meme-5",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj 12 saal baad Vice City ka gate khula hai 🌴🎮\nAaj ek din ki chhutti de dein, kal subah double mehnat se saara kaam poora kar dunga 😅🙏"
+  },
+  {
+    "id": "jh-wa-meme-6",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hello {name}, aaj subah utha toh sirf ek hi bimari lag rahi hai: GTA 6 Launch Fever 🤒🎮\nAaj ghar pe rest aur mission dono complete karke kal time pe duty aaunga 🙏"
+  },
+  {
+    "id": "jh-wa-meme-7",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj subah alarm baja par dil bola \"aaj Vice City, kal duty\" 🌴😅\nAaj ka din adjust kar lein, kal full energy ke saath shift pe milunga 🙏"
+  },
+  {
+    "id": "jh-wa-meme-8",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Salam {name}, aaj ghar pe PS5 garam ho raha hai aur urgent Leonida mission pending hai 🎮😅\nAaj ki chhutti maaf kar dein, kal subah sharp time pe hazir ho jaunga 🙏"
+  },
+  {
+    "id": "jh-wa-meme-9",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj office aane ki koshish ki par rasta seedha Vice City ki taraf mud gaya 🌴😅\nAaj ki ek din ki chhutti de dein, kal pending kaam sabse pehle nipata dunga 🙏"
+  },
+  {
+    "id": "jh-wa-meme-10",
+    "persona": "job_holder",
+    "channel": "whatsapp",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hello {name}, launch day baar baar nahi aata aur 12 saal wait kiya hai 🎮😅\nAaj ka din chhutti rakh lein, kal subah fresh ho ke shift pe dikhunga 🙏"
+  },
+  {
+    "id": "jh-tg-meme-4",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Salam {name}, ghar pe **150GB launch update** chal raha hai, aaj duty aana mushkil hai 😅🎮\nKal subah **shift pe time se** hazir ho jaunga 🙏"
+  },
+  {
+    "id": "jh-tg-meme-5",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, **12 saal ka intezar** aaj khatam hua hai, aaj **Vice City tour** zaroori hai 🌴🎮\nAaj ki chhutti de dein, kal **double kaam** pakka karunga 🙏"
+  },
+  {
+    "id": "jh-tg-meme-6",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hello {name}, subah se **GTA 6 Launch Fever** chad gaya hai 🤒🎮\nAaj ka din ghar pe **mission mode** mein rahega, kal regular duty pakki 🙏"
+  },
+  {
+    "id": "jh-tg-meme-7",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, aaj **alarm aur controller** mein fight hui aur controller jeet gaya 😅🎮\nAaj ki **ek din ki chhutti** adjust kar lein, kal time pe milunga 🙏"
+  },
+  {
+    "id": "jh-tg-meme-8",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Salam {name}, aaj **Leonida se urgent bulawa** aa gaya hai 🌴😅\nKal subah **full energy** ke saath saara pending kaam clear kar dunga 🙏"
+  },
+  {
+    "id": "jh-tg-meme-9",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "{name}, ghar pe **PS5 full speed** pe chal raha hai, aaj nikalna impossible lag raha hai 🎮😅\nKal **sharp timing** pe shift join kar lunga 🙏"
+  },
+  {
+    "id": "jh-tg-meme-10",
+    "persona": "job_holder",
+    "channel": "telegram",
+    "expression": "meme",
+    "subject": null,
+    "body": "Hello {name}, **launch day baar baar nahi aata**, aaj ka din chhutti chahiye thi 🌴🎮\nKal subah **fresh ho ke** duty pe milte hain 🙏"
+  },
+  {
+    "id": "jh-em-meme-4",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "One Day Leave: 150GB Launch Day Update",
+    "body": "Hello {name},\n\nAaj ghar par 150GB ka GTA 6 update download ho raha hai aur internet ko supervise karna pad raha hai 🎮 Isliye aaj duty par aana mushkil hoga.\n\nKal subah time par shift join kar ke saara pending kaam poora kar dunga 😅\n\nRegards"
+  },
+  {
+    "id": "jh-em-meme-5",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Leave Request: 12-Year Pending Vice City Visit",
+    "body": "Dear {name},\n\n12 saal ke intezar ke baad aaj Vice City ka historic launch day hai 🌴 Aaj duty par dhyan lagana thoda mushkil lag raha hai.\n\nAaj ki ek din ki chhutti approve kar dein, kal double energy ke saath kaam karunga 🙏\n\nBest regards"
+  },
+  {
+    "id": "jh-em-meme-6",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Sick Leave Today: Severe Launch Day Fever",
+    "body": "Hello {name},\n\nSubah se mujhe GTA 6 Launch Fever aur controller cramp feel ho raha hai 🤒🎮 Is wajah se aaj shift attend karna possible nahi ho paayega.\n\nKal bilkul fit ho kar time par duty par hazir ho jaunga 😅\n\nThanks"
+  },
+  {
+    "id": "jh-em-meme-7",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Urgent Leave Today: Leonida Mission",
+    "body": "Dear {name},\n\nAaj ghar par ek urgent Leonida mission khul gaya hai jisko aaj hi khatam karna zaroori hai 🌴🎮 Isliye aaj ka din off le raha hoon.\n\nKal subah regular timing par shift par milunga. Shukriya for understanding 🙏\n\nWarm regards"
+  },
+  {
+    "id": "jh-em-meme-8",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "One Day Absence: Console High Alert",
+    "body": "Hello {name},\n\nAaj subah se ghar par console aur WiFi dono full load par hain kyunki launch day hai 🎮 Ghar chhod kar aana thoda mushkil lag raha hai.\n\nKal subah sharp time par duty join kar ke sab cover kar dunga 😅\n\nRegards"
+  },
+  {
+    "id": "jh-em-meme-9",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "Leave Application: Decade Once Launch Break",
+    "body": "Dear {name},\n\nAisa historic launch day saalon mein ek baar aata hai 🌴 Aaj ek din ka break le kar kal full focus ke saath kaam par wapas aa jaunga.\n\nAaj ki chhutti ke liye shukriya 🙏\n\nBest regards"
+  },
+  {
+    "id": "jh-em-meme-10",
+    "persona": "job_holder",
+    "channel": "email",
+    "expression": "meme",
+    "subject": "One Day Off: Vice City Emergency",
+    "body": "Hello {name},\n\nSubah duty ke liye nikla tha par dil aur dimaag dono Vice City ki taraf mud gaye 😅🎮 Aaj ka din chhutti adjust kar lein.\n\nKal subah time par hazir ho kar saara kaam poora kar dunga 🙏\n\nRegards"
+  }
+]
