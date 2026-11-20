@@ -26,14 +26,25 @@ export function Navbar({ onStartClick }: NavbarProps) {
       }`}
     >
       <div className="mx-auto flex h-full w-full max-w-6xl items-center justify-between gap-3 px-4 sm:gap-8 sm:px-6">
-        {/* Zone 1: Minimal crisp white editorial brand mark */}
+        {/* Zone 1: Flipped mascot logo + editorial brand wordmark */}
         <a
           href="#top"
           style={{ fontFamily: 'var(--font-display)' }}
-          className="inline-flex items-center gap-1.5 text-lg font-extrabold tracking-[0.03em] text-white whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FFB0C4] sm:text-xl"
+          className="group inline-flex items-center gap-2.5 text-lg font-extrabold tracking-[0.03em] text-white whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FFB0C4] sm:gap-3 sm:text-xl"
         >
-          <span>SICK DAY</span>
-          <span className="text-[#FFB0C4]">VI</span>
+          <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-full bg-[#FAF7F4] ring-1 ring-[#FFB0C4]/60 shadow-[0_4px_14px_rgba(17,14,26,0.45)] transition-transform duration-200 group-hover:scale-105 sm:h-10 sm:w-10">
+            <img
+              src="/assets/aistudio/gta-v1-logo_c43a42aa.png"
+              alt="Sick Day VI mascot logo"
+              width={40}
+              height={40}
+              className="h-full w-full -scale-x-100 object-cover"
+            />
+          </span>
+          <span className="inline-flex items-center gap-1.5">
+            <span>SICK DAY</span>
+            <span className="text-[#FFB0C4]">VI</span>
+          </span>
         </a>
 
         {/* Zone 2: Clean uppercase editorial navigation links */}

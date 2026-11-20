@@ -21,6 +21,7 @@ import {
   renderShareCardPng,
   type RenderedShareCard,
 } from './utils/shareCardRenderer';
+import { syncDocumentHead } from './utils/seoMeta';
 
 export default function App() {
   const [persona, setPersona] = useState<Persona>('corporate');
@@ -42,20 +43,11 @@ export default function App() {
 
   useEffect(() => {
     if (typeof window !== 'undefined' && typeof document !== 'undefined') {
-      const canonicalUrl = `${window.location.origin}${window.location.pathname}`;
-      const ogImageUrl = `${window.location.origin}/og-image.jpg`;
-
-      const canonicalEl = document.querySelector('link[rel="canonical"]');
-      if (canonicalEl) canonicalEl.setAttribute('href', canonicalUrl);
-
-      const ogUrlEl = document.querySelector('meta[property="og:url"]');
-      if (ogUrlEl) ogUrlEl.setAttribute('content', canonicalUrl);
-
-      const ogImgEl = document.querySelector('meta[property="og:image"]');
-      if (ogImgEl) ogImgEl.setAttribute('content', ogImageUrl);
-
-      const twitterImgEl = document.querySelector('meta[name="twitter:image"]');
-      if (twitterImgEl) twitterImgEl.setAttribute('content', ogImageUrl);
+      syncDocumentHead(
+        document,
+        window.location.origin,
+        window.location.pathname,
+      );
     }
 
     return () => {
